@@ -1,0 +1,27 @@
+# Aula 05 - Concatenação
+
+## O que é concatenação
+
+- Termo usado em computação para unir o conteúdo de duas strings;
+
+- String: é uma sequência de caracteres
+
+- Também pode ser definida como o grupamento de duas ou mais células, incluindo: fórmulas (com números), textos ou outras informações contidas no seu interior, dá origem a um único resultado;
+Muito útil ao usuário final do programa que desenvolvermos.
+
+Exemplo: Tenho uma variável a que atribui o nome dos clientes, e em outra variável atribuo os sobrenomes dos clientes 
+
+Para unir o conteúdo destas duas variáveis, gerando nome e sobrenome do cliente/usuário de um programa utilizo a concatenação
+
+Para unir os valores de venda de um empregado meu posso utilizar a concatenação.
+
+
+Concatenação é muito útil para exibição de dados para o usuário;
+
+
+## Exercício final
+
+ Criar uma exibição para o usário: pedir o nome, as 4 notas, calcular a média, e dizer “Seu nome é: x” e “a sua média é: x”
+
+Vou tentar realizar o exercício gravando!
+

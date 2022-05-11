@@ -1,0 +1,72 @@
+# Aula 04 - Tomadas de decisões e expressões
+
+## Expressão aritmética
+
+Expressões que envolvem operadores e funções aritméticas envolvendo constantes e variáveis
+
+Operadores aritméticos
+
+
+## Expressões literais
+
+São expressões com constantes ou variáveis que tem resultados valores literais;
+Iremos usar expressões literais na atribuição de valores para uma variável constante;
+
+Exemplos:
+
+Criação de variáveis
+
+Em lógica profissional de programação
+
+nome=”José da Silva”
+
+Para atribuir valores a variáveis  e exibir valores alfanuméricos na logica de programação profissional sempre utilizo o sinal de igual (=)
+
+Devo sempre colocar entre aspas para exibir valores alfanuméricos;
+
+Em seudocódigo = em alguns casos para atribuição de variáveis em pseudocódigo utilizamos a flechinha (<-) e não sinal de igual
+
+nome<-”José da Silva”
+
+
+Atribuir valor de uma expressão à uma variável
+
+média=(nota1+nota2+nota3+nota4)/4
+
+Estou atribuindo o resultado dessa expressão à variável média, anteriormente já preciso ter criado esta variável
+
+Exemplos de expressões aritmética e literais
+
+
+Exemplo: expressões aritméticas e literais
+
+Operações relacionais
+
+Expressões compostas por outras expressões ou variáveis numéricas com operadores relacionais;
+As expressões relacionais retornam valores lógicos (verdadeiro/falso)
+
+Ex: 2>1 = verdadeiro
+
+Exemplos de operadores relacionais
+
+
+* Quando vou tentar saber se um numero é igual a outro não utilizo apenas um igual (=) pois um igual só é utilizado para atribuir valores à variáveis! Para comparar igualdade entre duas variáveis utilizo DOIS iguais (==) ex: 5==6
+
+**Diferente de (operador !=) também pode ser expresso pelo operador “<>” ex: x<>y  “x diferente de y”
+
+## TOMADAS DE DECISÃO
+
+Quando escrevemos programas, geralmente ocorre a necessidade de decidir o que fazer dependendo de alguma condição encontrada durante a execução;
+Exemplo
+
+Pedir dados do cliente
+Pedir cartão
+Se for verdadeiro - entrar com dados do cartão, se for falso - não tem cartão finaliza o atendimento “só fazemos compras com cartão”
+
+## Exemplo prático
+
+Para escrever texto dentro do fluxograma utilizar aspas;
+
+## Exercício
+
+ Declarar 04 variáveis relacionadas ao valor de venda de 4 meses de um vendedor, calcular a média aritmética destes 4 meses, se a média for >5.000,00 “Parabéns! Você receberá um abono de 10%”, <5.000,00 “Infelizmente você não atingiu a meta, você receberá um abono de apenas 3%”

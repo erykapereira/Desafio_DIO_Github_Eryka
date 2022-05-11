@@ -1,0 +1,73 @@
+#GESTÃO DE PROJETOS ÁGEIS COM SCRUM
+
+FUNDAMENTOS DE PROJETOS ÁGEIS – DIEGO A. S. PEREIRA
+
+## Aula 07 – Aprenda sobre o planejamento de tarefas
+
+
+ Épico = conjunto de histórias;
+
+-  Estórias = cada uma das partes de um épico detalhadas
+
+- Tarefas = são as partes que compõem uma estória, consiste no conjunto de atividades que o time de desenvolvimento deve desempenhar para entregar a estória.
+
+
+Letra C – uma tarefa descrita em nível de negócio;
+
+
+Letra B 
+
+
+CRITÉRIOS DE ACEITE
+
+- é uma lista de critérios que precisam ser alcançados para que a user story atenda aos requisitos do usuário e seja aceita pelo Product owner (PO);
+
+- Os critérios de aceitação tem o objetivo de definir limites para as user stories e ajudar o PO a detalhar em alto nível que é necessário para entregar valor ao cliente.
+
+ESTIMATIVA E PLANEJAMENTO
+
+- Existem tarefas que tem alta complexidade e elevam o tempo de execução e de planejamento;
+
+- São essas as questões que o time de desenvolvimento utilizam para estimar as tarefas;
+
+Planning poker
+
+Tarefa simples – voto 1;
+
+Tarefa difícil – 13 a 20 ptos – neste caso deve-se quebrar as estórias em mais tarefas.
+
+- Membros que derem menor e maior nota devem justificar sua opinião pois podem ter pensado em algo que os demais do time não levaram em consideração;
+
+
+GESTÃO DE PROJETOS ÁGEIS COM SCRUM
+
+FUNDAMENTOS DE PROJETOS ÁGEIS – DIEGO A. S. PEREIRA
+
+## Aula 09 - Rotinas de um time ágil
+
+- Daily review – uma revisão das tarefas do dia todo;
+
+- Retrospectiva – uma revisão focada nas tarefas da sprint toda.
+
+- Time maduro fazem estas cerimônias sem necessidade do SM ou PO solicitar.
+
+Letra c
+
+
+Refinamento
+
+- Adiantar possíveis dúvidas antes da etapa de planejamento;
+
+- Finalidade de aumentar a compreensão sobre a demanda pelo time e melhorar a qualidade da entrega e retorno esperado por projeto.
+
+
+
+Maturidade do time
+
+- A empresa precisa ser madura para o time também ser madura;
+
+- O amadurecimento do time está ligado ao ambiente em que está;
+
+- Pode ser medida pelos pilares do SCRUM
+
+

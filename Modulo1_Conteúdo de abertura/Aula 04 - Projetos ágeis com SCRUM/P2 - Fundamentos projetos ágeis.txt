@@ -1,0 +1,199 @@
+FUNDAMENTOS DE PROJETOS ÁGEIS – DIEGO A. S. PEREIRA
+
+Aula 05 - Papeis e responsabilidades - Product owner (PO)
+
+-  Objetivos: papeis e responsabilidades do PO, analisar o escopo e definir prioridades, papel do PO na transformação digital;
+
+- Product owner: 
+
+- Representa o profissional que tem a visão do que será desenvolvido;
+
+- É quem tem a visão das necessidades a serem atendidas;
+
+- É ele quem conhece o público que utilizará os serviços e os objetivos a serem alcançados;
+
+- Define a ordem das atvs. desenvolvidas;
+
+- Valida se esses itens entregues nas SPRINTS estão agregando o valor esperado, e se não estiverem ele precisa planejar os ajustes necessários nas próximas sprints;
+
+- Na pior das hipóteses é o responsável de cancelar uma SPRINT caso creia que o projeto não está alcançando o objetivo esperado;
+
+- Neste caso PO precisa replanejar a SPRINT mantendo os dias para sua conclusão, com alguma entrega de valor possível;
+
+- Se nenhuma entrega executável for possível, o PO pode priorizar um estudo para viabilizar e agilizar a ocorrência da próxima SPRINT e entrega de valor, através de um estudo conhecido como SPIKE
+
+Refining e planning
+
+- Planning eficiente começa com os opções de uma cerimônia não oficial, mas que ajuda a aumentar a qualidade das plannings, e ela é chamada refining;
+
+- Na refining o PO apresenta previamente ao time as histórias que deverão ser apresentadas na planning;
+
+- Até que a planning efetivamente aconteça
+
+- Objetivos da refining: o time saber previamente o que será discutido, e ter a chance de realizar questionamentos ao PO para melhor compreensão do que ele deseja;
+
+- Caso PO ou seus stakeholders não consigam responder algum questionamento colocado, terão tempo hábil para buscar respostas ou formas de explicar-se melhor;
+- É importante que nenhum desenvolvedor saia com dúvidas na planning;
+
+- Qualquer coisa entendida de maneira diferente deve ser validada com PO
+
+2ª etapa da planning
+
+- Sugere-se que o PO não participe para não influenciar sobre as atvs desenvolvidas;
+
+- Time pegará cada história e escreverá quais atvs deverão ser desenvolvidas para história ser considerada entregue;
+
+- Por ser uma parte mais técnica é necessário que o PO se abstenha para que o time possa colocar suas opiniões e expor ideias que normalmente não mostrariam na frente do PO, isso é normal e bem comum em times ainda não maduros que encaram o PO como um superior e não como um par;
+
+- Durante essa 2ª etapa da planning o time pode cortar as histórias e validar que ela é mais complexa do que imaginavam anteriormente, por isso há a etapa de quebra na planning e não antes do início das atividades.
+
+- Com as histórias mapeadas e atvs. descritas é definido o sprint backlog; com esta informação na mão, o PO deverá definir qual dos itens é mais prioritário e que deve ser considerado o objetivo principal da sprint; se essa atv. definida cair o restante da sprint não fará sentido, e, portanto, uma alteração deverá ser realizada no meio da sprint para que o objetivo seja atingido senão a sprint é cancelada;
+
+
+
+RELEASE PLANNING (liberação ou lançamento de software)
+
+- É o lançamento de nova versão oficial de produto de software;
+
+- Cada vez que um produto de software é criado ou modificado, o fabricante e seus desenvolvedores decidem sobre como distribuir o novo produto ou a modificação às pessoas que o utilizam;
+
+- Quanto mais sprints realizadas antes de uma release ou lançamento, maior probabilidade de enfrentar algum problema durante o merge (junção dos pontos de cada sprint) e maior o tempo necessário para que as funcionalidades estejam funcionando adequadamente após o merge;
+
+- Então, não é um problema acumular sprints até um certo momento mas deve-se tomar cuidado pois quanto mais sprints mais complexo o lançamento do software se tornará.
+
+TIPOS DE REALEASE PLANNING
+
+- Release planning de múltiplas squads: vários times de desenvolvimento agrupados realizando tarefas distintas que podem ou não ter correlação entre si, mas que, ao final da sprint devem ser agrupadas em uma única release a fim de serem implementadas em produção;
+
+- Release planning técnica em que a complexidade reside nas várias entregas distintas feitas por times distintos, mas que precisam obedecer as mesmas regras técnicas para subir juntas à produção sem que uma entrega interfira na outra;
+
+- Importante que PO se atente aos prazos da entrega no final da release.
+
+- Release planning de projeto: 
+
+- PO possui uma demanda técnica MUITO GRANDE, portanto, será necessário quebrar essa entrega em várias histórias e sprints;
+
+- É importante que o PO apresente certa severidade, pois precisa compreender a real dimensão da demanda, de cada história e quebrar as histórias no máximo que puder;
+
+- Por exemplo, o PO deve compreender que não é possível desenvolver uma nova plataforma de autenticação de usuários em uma única sprint, e que uma história com um título como “novo autenticador” não será suficiente para que o time compreenda a dimensão e poder cobrar corretamente as atvs;
+
+- É o responsável por gerenciar expectativas dos stakeholders, então precisa ter discernimento para já na primeira reunião de planejamento acalmar os ânimos dos seus colaboradores, e informar que a demanda é grande e levará várias sprints para ser entregue;
+
+- Deve quebrar histórias e priorizar as entregas de acordo com “a entrega de mais valor primeiro”  e se possível ir testando  a solução com os clientes e captando retorno, para ir adaptando a solução ao longo do desenvolvimento;
+
+- É um dos pontos mais críticos que o PO precisa lidar, muitas empresas estão acostumadas aos métodos tradicionais de gestão de projetos, onde todo o planejamento já é realizado antes do início do projeto, é nesse ponto que o PO encontra as maiores dificuldades já que ele nunca terá visão completa do projeto, visto que este irá modificar-se ao longo do projeto;
+
+- O PO ainda é vista erroneamente com o gerente de projeto do SCRUM, porém estes papeis não são iguais, e a parte mais semelhante é unicamente a parte de planejamento de release, isso acaba confundindo muitas pessoas;
+
+- O papel do PO na release consiste em definir as maiores entregas de valor ao cliente, priorizar as maiores entregas de valor para serem desenvolvidas primeiro, organizar as sprints para que seja possível captar o retorno do cliente o mais rapidamente possível, ir ajustando as histórias de acordo com o retorno dos clientes, para agregar cada vez mais valor;
+
+- Outro ponto importante no planejamento da release é entender quando a entrega trará realmente um valor real ao cliente, ou quando será apenas estética ou funcional, não alterando a dinâmica dos funcionários no sistema;
+
+- Dependendo da entrega, pode ser melhor esperar uma ou duas sprints para entrar na release, a fim de impactar menos possível o cliente, pois em cada desenvolvimento de apps em cada release lançada é necessário que o cliente realize uma atualização, e atualizações em excesso podem gerar impactos negativos ao cliente, e ao invés de incentivá-lo você pode acabar afastando-o do seu produto!
+
+
+
+EXERCÍCIO FINAL 
+
+
+R: c) entende a demanda e extrai o maior valor possível.
+
+	R: A
+
+## Aula 06 - Analisando escopo e definindo prioridades
+
+-  É uma fase importantíssima pois uma definição de escopo ruim não te permitirá atingir os objetivos;
+
+- Melhor forma de definir: inverter a ordem e definir qual objetivo e valor você quer atingir primeiramente – assim terá claro onde quer chegar
+
+- Na imagem abaixo, na imagem dois vemos que que um projeto foi dividido em sprints, e o objetivo era entregar um meio de locomoção:
+
+- Na imagem 1 acima, vemos um desenvolvimento incorreto, pois ele foi dividido em sprints, porém o modo que ocorreu essa divisão não iria entregar nenhum valor a quem utilizaria o veículo;
+
+
+- Já na segunda imagem, vemos que o objetivo foi atingido desde o início, embora alguns resultados entregues nas primeiras sprints não tenham sido ideais, pois os meios de locomoção como skate, patinete, bike ainda não entregavam o maior valor desejado pelo cliente. Mas ao longo do caminho trilhado, a equipe de desenvolvimento foi pegando dados do feedback do cliente para saber se o o que estava realizando fazia sentido, e foi melhorando até atingir objetivo final!
+
+1ª sprint: primeiro meio de locomoção entregue;
+
+2ª sprint: após feedback com cliente, um ajuste foi feito - um apoio foi acrescentado provavelmente devido a retorno dos clientes  sobre a falta deum apoio para conseguir se equilibrar;
+
+3ª sprint: mais conforto adicionado ao produto
+
+4ª sprint: mais velocidade adicionada com a moto ao meio de locomoção;
+
+5ª sprint: entregue um carro igual o cliente desejava, pois ele já usava o produto e foi dando feedback do que podia melhorar, no final, o entregue não foi um carro popular solicitado, mais um carro esportivo que com certeza entrega muito mais valor às pessoas que já utilizam o produto.
+
+
+PASSOS DA DEFINIÇÃO DO ESCOPO
+
+Inspecionar cada entrega;
+
+Validar com os clientes se o produto está correto e dentro da expectativa;
+Realizar as adaptações necessárias para atender cada vez melhor aos objetivos do cliente!
+
+
+PRODUCT BACKLOG
+
+- É composto por artefatos denominados: épicos e estória – implementos necessários para considerar a entrega;
+
+- Deve conter apenas o conteúdo de um produto;
+
+- Cada produto tem o seu próprio backlog geralmente esse backlog nunca se acaba pois conforme as entregas são realizadas novas inspeções são feitas e novos épicos serão liberados para manter o produto em constante evolução!
+
+- Épicos: não possuem muito detalhamento, servem para direcionar os caminhos que a equipe de desenvolvimento deve seguir de maneira rápida, para não perder tempo em coisas que não serão desenvolvidas agora ou nunca serão desenvolvidas; PO deve buscar o maior valor possível  sempre, seja ele financeiro ou não,  nunca deve  recusar um projeto de cara pois deve considerar primeiro todos os possíveis ganhos;
+
+- Estória: detalhamento dos épicos: um épico normalmente se divide em várias histórias onde ficam descritos o que deve acontecer e as regras de negócio.
+
+ESCREVENDO UMA ESTÓRIA
+
+- A estrutura de uma história deve conter:
+
+Nome da estória:
+ Descrição da estória: eu, como quero, quando
+ Regras de negócio: separar regras de front-end de regras de back-end
+
+Tela: link ou imagem das telas a serem desenvolvidas;
+
+ KPI’s: métricas de qualidade – quais os objetivos ou valores que estória precisa atingir;
+
+Tagueamento: como a estória será tagueada para mensurar os KPI’s;
+
+Critérios de aceite: qual o passo a passo de todos os caminhos felizes possíveis a estória deve cumprir para que seja considerada aceita.
+
+RISCOS POSITIVOS
+
+- Gestão de riscos é importantíssima nos projetos ágeis;
+
+- Geralmente olhamos muito para os riscos negativos, mas ignoramos os riscos positivos que são alguns dos fatores de maiores ganhos no desenvolvimento de sistemas;
+
+Positivos: muito ignorado nos projetos porém um dos fatores que envolve maiores ganhos no desenvolvimento de sistemas;
+
+Negativos:  itens que podem afetar o prazo o custo ou escopo de um projeto de maneira que pode inviabilizá-lo.
+
+
+Exercícios 
+
+1 - Letra c
+
+
+2- Letra d
+
+3 - Letra b
+
+
+##GESTÃO DE PROJETOS ÁGEIS COM SCRUM
+
+FUNDAMENTOS DE PROJETOS ÁGEIS – DIEGO A. S. PEREIRA
+
+Aula 07 - papel do PO na transformação digital
+
+
+ TRANSFORMAÇÃO DIGITAL
+
+ - Processo no qual as empresas fazem uso da tecnologia para melhorar desempenho, aumentar alcance e gerar resultados melhores;
+
+- É uma mudança estrutural nas organizações e tem papel essencial para a tecnologia.
+
+- É o PO quem entende a real necessidade do cliente e transforma o produto para melhor.
+
+

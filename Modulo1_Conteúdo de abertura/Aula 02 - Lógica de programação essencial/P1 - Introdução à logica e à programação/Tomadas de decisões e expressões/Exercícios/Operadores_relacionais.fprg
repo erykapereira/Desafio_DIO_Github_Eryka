@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Eryka Pereira"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-16 09:11:55 "/>
+        <attribute name="created" value="RXJ5a2EgUGVyZWlyYTtERVNLVE9QLU1EVDU2OUw7MjAyMi0wNC0xNjsiMDg6NTg6NDcgIjszNTA4"/>
+        <attribute name="edited" value="RXJ5a2EgUGVyZWlyYTtERVNLVE9QLU1EVDU2OUw7MjAyMi0wNC0xNjsiMDk6MTE6NTUgIjszOzM2MDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="1"/>
+            <assign variable="b" expression="1"/>
+            <assign variable="c" expression="3"/>
+            <output expression="a&gt;3" newline="True"/>
+            <output expression="a&lt;3" newline="True"/>
+            <output expression="a==b" newline="True"/>
+            <output expression="a&lt;=b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

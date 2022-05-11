@@ -1,0 +1,525 @@
+# Aula 01 - Aprenda como utilizar uma estrutura de repetição
+
+Estrutura de repetição
+
+Estrutura que permite executar mais de uma vez comando ou conjunto de comandos;
+
+Essa repetição se dá através de uma condição ou de um contador.
+
+Exemplo de estrutura de repetição
+
+
+## Exercício 
+
+Fazer exibir a tabuada do 09 no processo através da aplicação da estrutura de repetição
+
+Aula 2 - O que são linguagens de programação
+
+Definição de linguagem de programação
+
+
+- É uma linguagem escrita e formal, que especifica um conjunto de instruções e regras usadas para gerar programas (software);
+
+- O que é obvio para você certamente não é óbvio para a máquina. E se você quer que a máquina faça algo pra você, você precisa “falar com ela”!
+
+- Portanto, a função das linguagens de programação é servir de um meio de comunicação entre computadores e humanos.
+
+Onde pode ser utilizada? Onde rodar um software?
+
+- Um software pode ser desenvolvido para rodar em um computador, dispositivo móvel ou em qualquer equipamento que permita sua execução!
+
+
+# AULA 02 - TIPOS DE LINGUAGEM DE PROGRAMAÇÃO
+
+ALTO NÍVEL vs BAIXO NÍVEL
+
+Alto nível: é aquela cuja sintaxe aproxima-se mais da nossa linguagem e se distancia mais da linguagem da máquina;
+
+Ex: C++, php, Javascript, Phyton.
+
+Baixo nível: é aquela que se aproxima mais da linguagem da máquina. Essas são as que você precisa ter conhecimento direto da arquitetura do computador para fazer alguma coisa.
+
+Ex: Sembling
+
+
+COMPILADA vs INTERPRETADAS
+
+Compiladas: é uma linguagem de programação em que o código fonte é executado diretamente pelo sistema operacional ou pelo processador, após ser traduzido por um meio de um processo chamado compilação;
+
+
+- Utilizam um compilador, para traduzir o código fonte criado por você (que veio do seu algoritmo/intruções de execução) ao processador do computador que irá executá-lo. Assim por este processo, você digita todo o código num compilador (ex. csharp) e ele vai transformá-lo num arquivo executável (.exe) através do processo de compilação, para seu código fonte possa ser executado pelo  sistema operacional do computador.
+
+- Neste caso preciso criar o algoritmo, o código fonte e a própria máquina que o rodará (máquina de destino) traduzirá o código fonte em um arquivo executável, depois compilá-lo, para que seja rodado no PC;
+
+Ex: Csharp, Visual Basic, C++
+
+Interpretadas: é uma linguagem de programação em que o código fonte é executado por um programa de computador chamado interpretador, que em seguida é executado pelo sistema operacional ou processador;
+
+-Neste caso, o código fonte não é traduzido diretamente pela máquina 	que o executará (máquina de destino), em vez disso, um programa diferente – o interpretador – lê e executa o código.
+
+- Por exemplo, quando você abre um site, a linguagem de programação são interpretadas pelo servido e depois transformadas em html ali e executadas pelo browser , sendo a mais conhecida delas o Javascript.
+
+Ex: Javascript, PHP, Phyton.
+
+PSEUDOCÓDIGOS: PSEUDOCÓDIGOS USANDO PORTUGOL
+
+Portugol: é uma pseudolinguagem que permite ao leitor desenvolver algoritmos estruturados em português de forma simples e intuitiva independentemente de linguagem de programação.
+
+- É uma pseudolinguagem que permite ao programador pensar no problema em si e não no equipamento que irá executar o algoritmo.
+
+Portugol estúdio 
+
+https://gitgub.com/UNIVALI-LITE/Portugol-Studio/releases/
+
+Início e fim do código => indicado por chaves
+
+Tudo que estiver dentro das chaves => será executado automaticamente assim que programa for inicializado 
+
+- Quebra de linha no Portugol: “\n” +
+- Digita “\n” e usa o sinal “+” 
+
+
+
+Comando “escreva”
+
+REGRAS DO PORTUGOL
+
+- Comando “escreva” = escreve na tela
+- Escreve o nome do comando 
+- Dentro dele entre parênteses e aspas escrevo o que quero que seja exibido
+
+
+Para executar o comando escrito no pseudocódigo no Portugol é so apertar no botão grande verde de “play”
+
+
+COMO FAZER MÉDIA DE NOTAS NO PORTUGOL
+
+1º Declaro as variáveis que serão utilizadas, declarando inicialmente o tipo de variável/classe em que estas variáveis serão armazenadas, no caso variáveis do tipo “real” (números naturais, inteiros, racionais/decimais, e irracionais – decimais não periódicos como pi, raízes quadradas) para as notas e média que serão valores numéricos , e para a variável aluno que é um caractere eu vou salvá-la como “cadeia” pois esta classe de variáveis no Portugol aceita salvar uma cadeia de caracteres (necessário para escrever o nome dos alunos) já a classe “caractere” no Portugol só aceita 1 caractere
+
+
+
+- Para concatenar duas strings no Portugol preciso utilizar o “+”
+
+- Não usar acentos nem espaços também;
+
+- Se for digitar um texto para exibir ao usuário ele precisa estar entre aspas;
+
+- Para usar uma função primeiro colocamos entre parênteses após o nome da função
+
+- Para salvar uma fórmula, função (por exemplo de média) como variável utilizo o “=”.
+- Para salvar o trabalho no Portugol utilizo o comando “ctrl +”
+
+Média dos alunos – exemplo de código 
+
+ograma
+{
+	
+	funcao inicio()
+	{
+	   real nota1,nota2,nota3,nota4,media
+	   cadeia aluno
+	
+	escreva("Digite o nome do aluno: ")
+	leia(aluno)
+	escreva("O seu nome é: " + aluno)
+	escreva("Digite a nota 1: ")
+	leia(nota1)
+	escreva("Digite a nota 2: ")
+	leia(nota2)
+	escreva("Digite a nota 3: ")
+	leia(nota3)
+	escreva("Digite a nota 4: ")
+	leia(nota4)
+
+	media = (nota1+nota2+nota3+nota4)/4
+
+	escreva("O aluno: " + aluno + " obteve a média " + media) 
+	}
+
+Exercício
+
+Criar um novo código no Portugol, tentando obter a média de venda dos funcionários, pedir o total de vendas dos meses, exibir a média.
+
+ograma
+{
+	
+	funcao inicio()
+	{
+	   real nota1,nota2,nota3,nota4,media
+	   cadeia aluno
+	
+	escreva("Digite o nome do aluno: ")
+	leia(aluno)
+	escreva("O seu nome é: " + aluno)
+	escreva("Digite a nota 1: ")
+	leia(nota1)
+	escreva("Digite a nota 2: ")
+	leia(nota2)
+	escreva("Digite a nota 3: ")
+	leia(nota3)
+	escreva("Digite a nota 4: ")
+	leia(nota4)
+
+	media = (nota1+nota2+nota3+nota4)/4
+
+	escreva("O aluno: " + aluno + " obteve a média " + media) 
+	}
+
+
+# Aula 3 – Lógica de programação: desvios condicionais
+
+Definição 
+
+- Palavra reservada: é utilizada para descrever uma função/comando, por isso não criar uma variável com aquele nome
+
+- Palavra reservada se: serve para testar uma condição;
+
+- Para isso, a condição testada (aquilo que verificarei) deve estar entre parênteses;
+
+- Caso o desvio condicional seja VERDADEIRO: as instruções que devem ser executadas devem estar entre chaves;
+
+Exemplo: se (media>=7) {
+                             Escreva(“Parabéns!!Você foi aprovado!!”
+}
+
+Exemplo de desvio condicional verdadeiro com exercício anterior
+
+programa
+{
+	
+	funcao inicio()
+	{
+		real vend1,vend2,vend3,media
+		cadeia vendedor
+		
+		escreva("Digite o nome do vendedor: ")
+		leia(vendedor)
+		escreva(" O seu nome é: " + vendedor)
+		escreva(" Digite o seu total de vendas no mês de Março: ")
+		leia(vend1)
+		escreva(" Digite o seu total de vendas no mês de Abril: ")
+		leia(vend2)
+		escreva(" Digite o seu total de vendas no mês de Junho: ")
+		leia(vend3)
+		
+		media = (vend1+vend2+vend3)
+
+		escreva("O seu total de vendas no trimestre foi " + media)
+		
+		se(media<=100) {
+			escreva("Infelizmente você não atingiu a meta trimestral!")
+		}
+	}
+}
+
+- Quebra de linha no Portugol: “\n” +
+
+- Digita “\n” e usa o sinal “+” para concatenar
+
+COMANDO SENÃO
+
+- Pode utilizar após o um desvio condicional verdadeiro, para afirmar o contrário do que ele propõe (ou seja, o senão afirmará a condição oposto do comando se, o desvio condicional falso).
+
+- Exemplo: se(media<=100) {
+			escreva("\n" + "Infelizmente você não atingiu a meta trimestral!")
+		}
+
+		senao {
+			escreva("\n" + "Parabéns! Você atingiu a média trimestral!")
+		}
+
+COMENTÁRIOS NO CÓDIGO NO PORTUGAL
+
+Comentários
+
+Importância: caso outro programador pegue o seu código e precise compreender o seu objetivo, ou caso você esteja criando um código e pare, depois precise retornar, para explicar a utilidade de um comando/função;
+
+Como colocar comentários no código: 
+Utilizar dupla barra - // 
+
+
+DESVIO CONDICIONAL CASO
+
+- Comando similar ao se e senão;
+- Reduz a complexidade na escolha de diversas opções;
+- Apesar da similaridade com o comando se, ele possui algumas diferenças:
+      
+Não é possível o uso de operadores lógicos, o caso só trabalha com valores definidos;
+
+
+
+Exemplo de menu utilizando SE de forma ineficaz
+
+programa
+{
+	
+	funcao inicio()
+	{
+		escreva("1 - Abrir Netflix 2 - Abrir Amazon Prime 3 - Abrir HBO Go 4 - Sair")
+          inteiro menu = 0 
+          escreva("Sua opção:")
+          leia(menu)
+
+          se (menu==1) {
+          	escreva("OK! Abrir Netflix")
+          }
+
+          se (menu==2) {
+          	escreva("OK! Abrir Amazon Prime")
+          }
+          se (menu==3) {
+          	escreva("OK! Abrir HBO Go")
+          }
+          se(menu==4) {
+	     	escreva("Você está saindo")
+	     }
+	}}
+
+Utilizando o mesmo menu com função CASO
+
+programa
+{
+	
+	funcao inicio()
+	{
+	escreva("1 - Abrir Netflix 2 - Abrir Amazon Prime 3 - Abrir HBO Go 4 - Sair")
+		inteiro menu=0
+		
+		escreva ("\n" + "Sua escolha ")
+		
+		leia(menu)
+		
+		escolha (menu)          //estou dizendo qual o meu critério de escolha 
+		{
+			caso 1:               //testa se o valor é igual a 1
+			escreva("Ok!Abrir Netflix")
+			pare
+			
+			caso 2:               //testa se o valor é igual a 2
+			escreva("Ok!Abrir Amazon Prime")
+			pare
+			
+			caso 3:         //testa se o valor é igual a 3
+			escreva("Ok!Abrir HBO GO")
+			pare
+
+			caso 4:
+			escreva ("Saindo do menu...")
+			pare
+			
+			caso contrario:         //caso eu não escolha nenhuma das opções anteriores no menu
+			escreva("Escolha alguma das opções anteriores para continuar")
+		}
+	}
+}
+
+
+# Aula 4 – Lógica de programação: Como utilizar os laços de repetição no Portugol
+
+Definição estrutura/laços de repetição
+
+- Estrutura que permite executar mais de uma vez o mesmo comando ou conjunto de comandos, de acordo com uma condição ou contador;
+
+Exemplo prático
+
+programa
+{
+	
+	funcao inicio()
+	{
+		// Aula 04 -Lógica de programação: Como utilizar os laços de repetição no Portugol - Eryka S. Pereira -  29/04/2022
+		
+		inteiro contador,limite,resultado
+         
+          contador = 0 //número onde começará meu loop, a ser somado
+          
+          limite = 10 //limite de contagem do loop
+          
+          faca{
+
+         	resultado = 7 * contador // 7*número do contador dará o resultado em loop até chegar na contagem 10 (7*10) que foi o limite interposto
+         	escreva("7 X " + contador + " = " + resultado + "\n"
+          contador ++ // sempre soma +1 a partir do contador 0 e vai até o limite 0, faz o loop somando sempre mais 1
+	}
+ enquanto (contador<= limite)
+}
+
+Comandos utilizados 
+
+++ => comando que pede para adicionar a variável +1
+
+Comando enquanto => mantém a realização de um comando enquanto o limite for atendido
+
+Comando faça => permite realizar loop para ciclo de repetição de funções; o que estiver dentro da função faça será repetido enquanto limite for respeitado (n =10)
+
+
+Exercício
+
+Alterar o código do exemplo anterior, de modo a permitir que o usuário solicite a tabuada que ele quer.
+
+programa
+{	
+	funcao inicio()
+	{
+		// Aula 04 -Lógica de programação: Como utilizar os laços de repetição no Portugol - Eryka S. Pereira -  29/04/2022
+		
+		inteiro contador,limite,resultado, tabuada
+
+		escreva("Você deseja a tabuada de qual número? ")
+		leia(tabuada)
+		
+		escreva("\n" + "A tabuada desejada é do:" + tabuada)
+ 
+          contador = 0 
+          
+          limite = 10 
+
+
+
+          faca{
+          	
+          resultado =  tabuada * contador
+         	escreva("\n" + tabuada + "x" + contador + " = " + resultado)
+          contador ++ 
+	}enquanto (contador<= limite)
+	}
+}
+
+# Aula 5 - Aplicação prática com matrizes e vetores
+
+## Definição matrizes e vetores
+
+### Matriz
+
+- Coleção de variáveis do mesmo tipo;
+
+- Acessíveis com um único nome ;
+
+- Armazenados contiguamente (sequencialmente) na memória;
+
+- A individualização de cada variável de um vetor é feita a partir do uso de índices (números que identificam a posição da variável, linha coluna etc) para encontrar um valor/variável você identifica a posição dele na matriz;
+
+- Índice: sua contagem é sempre iniciada por 0
+
+Exemplo de matriz: tabela
+
+Vetores
+
+- Matrizes unidimensionais (uma só dimensão);
+
+- Por exemplo: só tem colunas
+
+
+#### Exemplo de criação de vetor – matriz
+
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia frutas[4]
+inteiro contador = 0
+		
+		frutas [0] = "Maça"
+		frutas [1] = "Pera"
+		frutas [2] = "Laranja"
+		frutas [3]=  "Uva”	
+
+	faca{
+         
+          escreva (frutas[contador] + "\n")
+          contador++
+          
+	}enquanto (contador<=3)
+
+
+Exemplo 02
+
+programa
+{
+	
+	funcao inicio()
+	{
+          inteiro contador=0
+          cadeia cesta[][]={{"Pera","100"},{"Jaca","200"},{"Maçã","900"},{"Uva","89"}}
+		
+
+	faca{
+         
+          escreva ("\n" + "Produto: " + cesta[contador][0] + "Quantidade: " + cesta [contador] [1]) 
+          
+	}enquanto (contador>=3)
+		
+	}
+       }
+
+
+
+
+
+Como montar matriz: atribuir um nome para a matriz e escrever o número das linhas entre colchetes, e em seguida o número de colunas entre colchetes
+
+
+
+Como montar matriz e exibir suas informações em loop
+
+
+
+Pegar dados da matriz
+
+
+
+cadeia cesta[ ][ ] = {{“Maçã”, “100”},{“Pera”,200”},{“Melão”,”300”}
+
+para selecionar partes desta tabela
+
+
+Frutas
+Quantidades
+Maçã
+100
+Pera
+200
+Melão
+300
+
+
+
+
+escreva (“Fruta” + cesta [0][0] + “Quantidade” + cesta [0][1]
+
+Os números entre chaves significam as linhas e colunas respectivamente em que estão o elemento desejado;
+A contabilização das linhas e colunas começam no zero:  primeira linha 0, segunda linha 1, terceira linha -2;
+Por isso a posição “00” da cesta indica o elemento na primeira linha e coluna (fruta maçã); a posição “01” indica um elemento na primeira linha (linha 0) mas na segunda coluna (coluna 1) - este elemento é o número 100.
+
+
+
+
+Exercíci
+
+	Crie uma matriz para armazenar e apresentar informações, e depois um loop para exibir todas as informações dessa matriz.
+
+
+
+Resolução feita por mim
+
+programa
+{
+	funcao inicio()
+	{
+	     inteiro contador=0
+	     
+		cadeia contatos[3][3]={{"João","São Paulo","1199995241"},{"Maria","Ribeirão Preto","199998596"},{"Ana","Manaus","199998574"}}
+       
+	faca{
+	escreva("\n" + " Nome: " + contatos[contador][0] + "  Cidade: " + contatos[contador][1] + " Telefone: " + contatos[contador][2] + "\n")
+	contador++
+	
+	}enquanto(contador<=2)
+	
+	}
+}
+
+
+
+

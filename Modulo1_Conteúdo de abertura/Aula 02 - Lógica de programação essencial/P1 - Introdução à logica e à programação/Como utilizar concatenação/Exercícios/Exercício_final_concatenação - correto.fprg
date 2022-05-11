@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Eryka Pereira"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-17 12:06:43 "/>
+        <attribute name="created" value="RXJ5a2EgUGVyZWlyYTtERVNLVE9QLU1EVDU2OUw7MjAyMi0wNC0xNjsiMTE6MjY6MTUgIjszNDky"/>
+        <attribute name="edited" value="RXJ5a2EgUGVyZWlyYTtERVNLVE9QLU1EVDU2OUw7MjAyMi0wNC0xNzsiMTI6MDY6NDMgIjs2OzM2MDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nomecompleto" type="String" array="False" size=""/>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <declare name="instituicao" type="String" array="False" size=""/>
+            <declare name="Sala" type="String" array="False" size=""/>
+            <declare name="numerochamada" type="Integer" array="False" size=""/>
+            <declare name="nota1, nota2, nota3, nota4" type="Real" array="False" size=""/>
+            <input variable="nomecompleto"/>
+            <input variable="idade"/>
+            <input variable="instituicao"/>
+            <input variable="sala"/>
+            <input variable="numerochamada"/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <output expression="&quot;Qual seu nome completo?" newline="True"/>
+            <output expression="" newline="True"/>
+            <output expression="&quot; O seu nome &#233; : &quot; &amp; nome" newline="True"/>
+            <output expression="&quot; A sua idade &#233;: &quot; &amp; idade" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

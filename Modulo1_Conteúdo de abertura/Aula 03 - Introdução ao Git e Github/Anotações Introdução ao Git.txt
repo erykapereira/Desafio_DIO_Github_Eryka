@@ -1,0 +1,1106 @@
+#Aula 01 - Entendendo o que é Github e sua importância
+
+## Definição matrizes e vetores
+	
+	### Por que aprender esta tecnologia?
+
+- Linus Torvalds => criador do Git, Linux, enfrentava problema complicado
+
+- Softwares são criados de forma colaborativa!
+
+- Git e Github são programas complementares, fortes e de uso extremamente disseminado no mercado, mas diferentes! Porém muitos cursos trabalham os dois softwares juntos;
+
+- São da Microsoft, permitem trabalho colaborativo;
+
+- Github é um repositório online onde posso armazenar meu código, serviço chamado de “host de código”;
+
+- Softwares similares ao Github: Gitlab, Bitbucket, Bitkeeper, CBS, SourceFourge, LaunchPad, Apache Allura, 
+
+
+- Git: um sistema de controle de versões (VCS) usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo (Exemplo: alguns livros digitais são disponibilizados no GitHub e escrito aos poucos publicamente);
+
+- O Git foi inicialmente projetado e desenvolvido por Linus Torvalds para o desenvolvimento do kernel Linux, mas foi adotado por muitos outros projetos;
+
+- Cada diretório de trabalho do Git é um repositório com um histórico completo e habilidade total de acompanhamento das revisões, não dependente de acesso a uma rede ou a um servidor central
+
+- O Git também facilita a reprodutibilidade científica em uma ampla gama de disciplinas, da ecologia à bioinformática, arqueologia à zoologia;
+
+- O Git é um software livre, distribuído sob os termos da versão 2 da GNU General Public License. Sua manutenção é atualmente supervisionada por Junio Hamano.
+
+Github: em suma, o GitHub é um serviço baseado em nuvem que serve como repositório de códigos-fonte criados por desenvolvedores de todo o mundo; 
+
+- O GitHub hospeda um sistema de controle de versão (VCS) de códigos chamado Git;
+
+
+- Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo;
+
+- GitHub é amplamente utilizado por programadores para divulgação de seus trabalhos ou para que outros programadores contribuam com o projeto, além de promover fácil comunicação através de recursos que relatam problemas ou mesclam repositórios remotos (issues, pull request);
+
+- Está cada vez mais voltado à parte social de desenvolvimento de programas.
+
+
+- Github pode ter planos pagos e neste caso sua utilização fica mais restrita para alguns usuários;
+
+Benefícios do Git e Github
+
+
+- Controle de versão de arquivos;
+
+- Armazenamento em nuvem proporcionado pelo Github;
+
+- Trabalho colaborativo e opensource para melhoria do seu código, você expõe seu código ao mundo e desenvolvedores do mundo todo podem auxiliá-lo a melhorar seu código;
+
+- Melhoramento do seu código através do trabalho colaborativo;
+
+- Reconhecimento ao expor seu código ao mundo, pode abrir oportunidades profissionais.
+
+
+## Aula 02 - Comandos básicos para bom desempenho no terminal
+
+- A maior parte dos programas apresentam uma interface gráfica responsiva ao usuário;
+
+- GIT tem design voltado a outro tipo de programa: é um CLI (Comand Line Interface – Interface por Linha de comando) – não tem interface gráfica, funciona por linha de comando;
+
+- Alguns softwares foram desenvolvidos para criar uma interface gráfica (Grafic interface).
+
+COMANDOS BÁSICOS PARA NAVEGAÇÃO
+
+- Mudar de pastas
+- Listar pastas;
+- Criar pastas/arquivos
+- Deletar pastas /arquivos
+
+
+DIFERENÇAS DE INTERAÇÃO TERMINAL: WINDOWS X UNIX (LINUX OU APPLE)
+
+- WINDOWS
+
+- Terminal derivado do SHELL (conjunto de comando)
+- CD
+- dir
+- mkdir
+-del/rmdir
+
+UNIX (Linux e Apple)
+
+- Terminal derivado do DESH
+-cd
+-ls
+-mkdir
+-rm-rf
+
+Abrir o Prompt de comando do computador (digitar “CDM”)
+
+
+1º Comando de navegação: dir (Windows) ou ls (Linux) – Listar diretórios
+
+- Digitar dir e dar enter no prompt de comando
+
+- Lista todos os diretórios existentes dentro pasta em que estamos situados:
+
+*Flags: variâncias, que são complementos que passamos a estes comandos, e eles acrescentam, modificam ou formatam o modo como estes comando são apresentados a nós.
+
+
+2º comando: mudar de pasta – “change directory” – “CD”  igual para windows e Linux
+
+- Para usar este comando digito “dir” primeiro dou enter para listar o diretório, depois digito  “cd” + espaço + nome da pasta para onde quero navegar e dou enter.
+
+Exemplo: C:\ cd Meus documentos
+
+Digito “dir” dou enter e depois o comando “cd” com um caminho específico para onde quero ir (navegar) como por exemplo a barra “/” (barra representaria o nome da pasta), e o comando ele vai me permitir selecionar pastas existentes na base do diretório C naquele caminho especificado; vai me dizer quantas pastas tem ali etc.
+
+
+3º comando:  “cd..” retrocede um nível na navegação atual, ou seja, volta a pasta.
+
+# Aula 03 - Instalação do GIT
+
+Aula 02 – Realizando a instalação do GIT
+
+Link: https://git-scm.com/download/win
+
+Deprecated: termo utilizado dentro da programação para dizer que tal versão será descontinuada, o comando ou opção escolhido não será mais funcional.
+
+
+## Aula 04 - Tópicos fundamentais para entender o funcionamento do GIT
+
+Tópicos
+
+- SHA1
+- Objetos fundamentais
+- Sistema distribuído
+- Segurança
+
+
+SHA1
+
+- Secure Hash Algorithm (Algoritmo de Hash Seguro);
+
+- É um conjunto de funções hash criptográficas;
+
+- Projetadas pela NSA (Agência de Segurança Nacional dos EUA);
+
+- Encriptação: significa colocar uma informação em código secreto (cifra), que só pode ser lido por quem possui a chave para desencriptar os dados; codificar, criptografar: o aplicativo de conversas começou a encriptar todas as mensagens dos usuários.
+
+- A encriptação dos dados gera um conjunto único de caracteres identificador de 40 dígitos, pode
+
+- Cada vez que eu mudo o algoritmo e o código, os 40 dígitos responsáveis por sua encriptação mudam de a ordem para proteger a segurança dos dados;
+
+
+String: conjunto de caracteres.
+
+TRABALHANDO NO GIT
+
+-Abrir terminal do GIT Bash
+
+
+Mudar tema do GIT Bash: clicar com botão direito > options > Looks > Theme > Apply
+
+- Vai salvar os dados criados na pasta de instalação;
+
+- Mudar a pasta de salvamento do GIT > simplesmente ir para a pasta desejada > clicar com botão direito > Git bash here (pasta de salvamento muda para a pasta aberta)
+
+Passar um doc texto para algoritmo de encriptação usando SHA1
+
+Abrir git bash na pasta que está
+Digitar: openssl sha1 + nome do arquivo
+Ex: openssl sha1 + texto.txt
+
+O Git bash gera um conjunto de 40 caracteres que significa o código da encriptação
+
+SHA1(texto.txt)= 765a690c79d4ff6c4c52db2548a9e645352439ff
+Se eu mudar uma vírgula no arquivo, o código de encriptação se altera tbm:
+
+4c53d48c6ad2cfeb660aa54118dcf686e14aa1d4
+- Gera encriptação tbm para objetos internos do GIT
+
+
+4º comando: “cls” (Windows) (Clear Space) e “clear” ou “ctrl+L” no Linux - limpar o terminal após interagir muito
+
+Atalhos úteis no teclado 
+
+“Tab” – autocompleta nomes de pasta etc. no Windows após eu digitar algumas letras.
+
+
+Criar pasta – “mkdir” (Windows e Linux) – digita esse comando na prompt de comando, dá um espaço e digita o nome da pasta (no exemplo o nome da pasta foi workspace)
+
+Exemplo: criei a pasta workspace no passo anterior agora dei cd .. para tentar entrar nela, novo diretório criado, porém se der um “TAB” o nome dela já completará sem que eu precise digitá-lo.
+
+
+*Se der tudo certo o terminal não vai mostrar nenhum erro, só vai ficar “em silencio” o conceito de “silence of success”.
+
+Rodamos o dir novamente pra ver o que tinha no diretório (documentos) e confirmamos que a pasta workspace foi criada.
+
+
+No Linux: 
+
+- Primeiramente pego a permissão para criar a pasta digitando o comando “sudo su” e depois digitando a senha.
+
+Daí digito o mkdir + nome da pasta
+
+Dou ls para listar as pastas do diretório
+
+5º Comando: “echo” + palavra que você escrever, só printa na tela do terminal aquilo que você escrever, devolve a mesma palavra que você escrever após o nome do comando.
+
+
+
+6º comando: criar um arquivo na pasta em que estiver, apenas digitando no terminal. Após digitar o comando “echo” + palavra hello, eu utilizo um redirecionador de fluxo “>” e digito o nome do arquivo que quero + formato (ex: hello.txt) para salvar a saída que tive anteriormente utilizando o comando hello (a saída foi que o prompt de comando devolveu a palavra “helllo”) como um arquivo de texto (.txt). Depois só utilizar o “cls” (Windows) para listar o que tem nesse diretório em que estou e verificar se realmente salvou o arquivo que pedi.
+
+
+
+
+
+No Linux também usa o comando “echo”
+
+
+Testando os comandos aprendidos
+
+
+7º comando: deletar um arquivo, dar cd.. para voltar pro diretório onde a pasta a ser deletada estar, depois digitar “del + nome do arquivo” ele perguntará se tem certeza, é só digitar sim. Esse comando não funciona para deletar repositórios!
+
+
+
+Atalho: 
+
+- Setinha para cima (uma das setas direcionais – arrow Keys) só ir apertando ela no terminal para navegar entre os comandos já utilizados e repetir um deles, neste caso usamos o comando de criar arquivos novamente para criar um arquivo na pasta workspace para depois aprender a deletar a pasta como um todo.
+
+8º comando: deletar pastas inteiras com seu conteúdo, saio da pasta voltando um nível da navegação com o comando aprendido “cd..”, dou um “dir” pra ver tudo que tem, depois uso o comando “rmdir” + nome da pasta + “/S /Q” (as flex “S” e “Q” são aditivos do comando, o S é um recursivo para que o terminal delete todas as pastas dentro do diretório que estamos querendo apagar, e o Q para que ele não peça confirmações antes de deletar a pasta inteira).
+
+
+Depois dou o dir novamente e confirmo que a pasta workspace e todo o seu conteúdo não estão mais lá nos documentos
+
+
+No Linux: usar comando “rm” + -rf (r de recursivo – para que se tiver pasta dentro de pasta vai deletar todas elas, e o f vem de “force” para que após o comando, o terminal não peça confirmação de delete).
+
+
+
+## Aula 05 - Objetos internos do GIT
+
+OBJETOS FUNDAMENTAIS DO GIT: BLOBS, TREES E COMMITS
+
+1.BLOBS (“bolha”)
+
+- Objeto que guarda o conteúdo dos arquivos;
+
+- Contém os metadados: nome do objeto, o tamanho da string / arquivo + uma barra contrária (\) com 0 + o conteúdo propriamente dito do arquivo (seja ele binário, texto) + o SHA do arquivo (código de encriptação dele)
+
+- sha1: é o código gerado pela encriptação dos dados
+
+- Não guarda o nome do arquivo
+
+
+- Objeto BLOB armazena metadados do GIT
+
+- É o bloco básico de composição de dados do GIT
+
+2.TREES
+
+- Objetos mais complexos que os BLOBs;
+
+- Guarda conjuntos de BLOBs contendo: barra + 0 , aponta/contém  o BLOB (que contém o SHA – caractere identificador do arquivo após encriptação), guarda nome do arquivo;
+
+- Assim como diretórios dentro de um sistema operacional podem conter outros diretórios (pasta dentro de pasta) as árvores também são elementos recursivos, ou seja, podem apontar (conter) outras árvores;
+
+- árvores contém SHA1 que estão nos BLOBs  e ainda cada árvore tem um SHA1 (código de encriptação dos metadados);
+
+- Se mudar apenas uma vírgula nos dados dos BLOBs os metadados da árvore também mudará, ou seja seu código de encriptação SHA1 também mudará. Portanto se mudarmos algo no BLOB toda estrutura de encriptação da árvore mudará pois eles estão diretamente relacionados;
+
+
+
+
+3.COMMITS
+
+- É o objeto que dá sentido 
+
+- Contém os BLOBs, as TREES e todos os metadados desses objetos;
+
+- Aponta (contém): blobs e seus arquivos e SHA1s, as trees, contém os parentes (último commit realizado antes dele), nome do autor, mensagem,  timestamp, sha1 (encriptação do hash de 40 códigos, portanto, se alterar qualquer coisa nas BLOBs, nas TREEs, todo o dha1 do commit será  alterado);
+
+- Possui um timestamp: horário de criação;
+
+- É por isso que o GIT é tão seguro, pois possui encriptação em todos os níveis de objetos;
+
+- O código é extremamente fiel pois todos os objetos são encriptados e qualquer alteração fica registrada no histórico dos metadados encriptados
+
+- O commit contém toda alteração feita nos dados, e dá significado para todos esses arquivos e metadados guardados nesse objeto, pois faz referência a todas as alterações realizadas nele.
+
+Hash: código 
+
+- O código de encriptação dos commits (SHA1 dos commits) constitui o hash (o código) de toda essa informação guardada nos blobs, depois nas trees e por fim no commits!
+
+
+SISTEMA DISTRIBUÍDO SEGURO
+
+Sistema distribuído: composto de vários computadores se comunicando através de uma rede de computadores, onde computadores abrigam conjuntos de processos que se comunicam através de um conjunto de protocolos distribuídos para assistir a execução coerente das atividades distribuídas.
+
+- É um conjunto de dispositivos autônomos conectados por uma rede de comunicação que é percebida pelos usuários como um único dispositivo (pode ser em nuvem) provendo serviços para resolver algum problema
+
+Ex: o GIT e o Github, diversos usuários salvam seus códigos encriptados e salvos em objetos hierárquicos como blobs, trees e commits, e percebem esse código como um só, mas qualquer alteração que esse código sofrer gerará uma nova versão sua, com um novo hash (código) de SHA1 (encriptação) portanto haverão diferentes versões do arquivo para cada alteração, e para cada dispositivo conectado, além do arquivo salvo na nuvem. Portanto mesmo se houver um problema com todos os dados da nuvem, outros usuários terão o material salvo.
+
+- O GIT é um sistema distribuído pois possui a informação (arquivo e o código da encriptação) salvo em diversos níveis de objeto, que estão um dentro do outro, avançando em complexidade, e cada nível de objeto que aponta para outro, possui um código de encriptação, que impossibilita a alteração dos arquivos. E todo esse arquivo está hospedado no GITHUB com versões salvas distribuídas no sistema de vários users ao mesmo tempo, por isso se houver um problema de perda dos dados ou alteração, terá que sumir com as diferentes versões salvas na nuvem, e ainda na máquina de diferentes mantenedores do código.
+
+- imagina que você tenha o seu código, o seu repositório, hosteado em um servidor na nuvem, por exemplo, como o Github. Então, o código que é guardado/ hospedado/armazenado lá, representa o estado final do seu código (software, programa). Ele é a versão mais recente mais atualizada desse código. E vamos supor que esse código possui 30 a 40 pessoas contribuindo com ele pois como já falamos a criação de um código no Github quase sempre é feita de forma colaborativa. Então vamos supor que na máquina de 30 a 40 pessoas que são mainteiners (mantenedores do código) de forma regular, também há uma versão desse código salva. Então pelo fato de os comitês serem tão difíceis de serem alterados visto que possuem grandes níveis de encriptação (podemos dizer que os comitês são quase impossíveis de serem alterados pelo seu alto nível de segurança), tanto a versão mais recente que está na máquina do servidor, como qualquer uma dessas outras 40 versões dos mantenedores do código distribuidas entre estas outras máquinas dos manteirners também são versões confiáveis. Portanto mesmo se houvesse um problema de rede na estrutura global da internet se caísse mesmo tudo ainda assim a veriam versões confiáveis desse código salvas.
+
+
+## Aula 06 - Chaves SSH e Tokens
+
+GITHUB
+
+- É necessário autenticar-se ao entrar no Github e a autenticação via nickname e password está obsoleta e foi invalidada;
+
+- Por
+
+
+Chaves SSH
+
+- É uma forma de estabelecer conexão segura e encriptada entre duas máquinas, então colocaremos o nosso pc local como máquina confiável para autenticação;
+
+- São duas chaves no Github: a pública e a privada;
+
+- A chave pública será a autenticação do Github para envio de códigos, pois terá conexão prévia com a máquina, não sendo mais necessário logar toda vez
+
+Como criar uma chave SSH
+
+Ir no seu perfil 
+
+
+
+Settings > SSG and GPG Keys
+
+
+New SSH KEY
+
+
+
+
+
+
+
+
+Abrir Git bash => gerar chave SSH de forma 
+
+
+
+
+
+Digitar essa linha de código: 
+
+ssh-keygen -t ed25519 -C silvapereira.eryka@gmail.com
+
+
+Se der certo e gerar a chave aparecerá
+
+
+
+
+
+
+
+Diretório: Created directory '/c/Users/Eryka Pereira/.ssh'.
+
+Chave criada: (/c/Users/Eryka Pereira/.ssh/id_ed25519)
+
+Chave pública: /c/Users/Eryka Pereira/.ssh/id_ed25519.pub
+
+Keyfingerprint:SHA256:UdozWb7c/LiwtskEm+oppmf3XmwIEyt99K4swmoITtc silvapereira.eryka@gmail.com
+
+Senha para aprovar chave: 671903Lina
+
+
+Imagem da senha: 
+
++--[ED25519 256]--+
+|          . .    |
+|         + +     |
+|        + * .    |
+|       . = = +   |
+|    . . S o + o  |
+|.. . E . + B   o |
+|o... .    + B . .|
+| .. . B o+ *.+ . |
+|   .o* =++=.=..  |
++----[SHA256]-----+
+
+
+
+
+
+Ctrl + L = limpar terminal do Git bash
+
+
+Navegando até a pasta onde foi salva a senha: (não deu certo do jeito que ele ensinou)
+
+
+Ele mandou navegar usando o comando cd (para navegar até a pasta) + caminho da pasta onde foi salvo 
+
+cd /c/Users//Eryka Pereira/.ssh
+
+
+Então fiz outro caminho:
+
+Cheguei até a pasta users usando comando cd:
+
+cd /c/Users/
+
+
+Listei o que tinha em Users para achar o caminho para minha pasta Eryka Pereira:
+
+ls
+'All Users'@   Default/  'Default User'@  'Eryka Pereira'/   Public/  'Todos os Us
+ Usei  o comando cd + nome da pasta do jeito que ela aparecia
+
+cd 'Eryka Pereira'/
+
+Listei tudo que tinha na pasta Eryka Pereira usando ls mas não achei o .ssh , então usei cd + .ssh para achar as chaves privada e pública:
+
+cd .ssh
+
+Obtive acesso às duas chaves mandando listar: 
+
+ls
+id_ed25519  id_ed25519.pub
+
+Por fim usei o comando cat para visualizar a chave pública que usamos no github como ele ensinou:
+
+
+cat id_ed25519.pub
+
+Obtive a chave pública: 
+
+
+cat id_ed25519.pub
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINEQN/WALxq2seVytq1z2BvhMoh5cP4f2W8oKTp3YW9o silvapereira.eryka@gmail.com
+
+
+Vou no Github e salvo um título que identifique a chave do pc dell e colo a  chave no espaço de descrição embaixo do título
+
+
+
+Salvo clicando em “add SSH key”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Passp a passo que utilizei
+
+
+
+
+
+
+
+
+
+Eryka Pereira@DESKTOP-MDT569L MINGW64 /c/Users
+$ ls
+'All Users'@   Default/  'Default User'@  'Eryka Pereira'/   Public/  'Todos os Usuários'@  'Usuário Padrão'@   desktop.ini
+
+Eryka Pereira@DESKTOP-MDT569L MINGW64 /c/Users
+$ cd 'Eryka Pereira/'
+
+Eryka Pereira@DESKTOP-MDT569L MINGW64 ~
+$ ls
+'3D Objects'/              Documents/               NTUSER.DAT{828717a0-4245-11eb-ae17-484d7efbf964}.TxR.0.regtrans-ms                            'Saved Games'/
+'Ambiente de Impressão'@   Downloads/               NTUSER.DAT{828717a0-4245-11eb-ae17-484d7efbf964}.TxR.1.regtrans-ms                             Searches/
+'Ambiente de Rede'@        Favorites/               NTUSER.DAT{828717a0-4245-11eb-ae17-484d7efbf964}.TxR.2.regtrans-ms                             SendTo@
+ AppData/                  IntelGraphicsProfiles/   NTUSER.DAT{828717a0-4245-11eb-ae17-484d7efbf964}.TxR.blf                                       Tracing/
+'Biblioteca do calibre'/   Links/                   NTUSER.DAT{828717a1-4245-11eb-ae17-484d7efbf964}.TM.blf                                        Videos/
+'Configurações Locais'@   'Menu Iniciar'@           NTUSER.DAT{828717a1-4245-11eb-ae17-484d7efbf964}.TMContainer00000000000000000001.regtrans-ms   ntuser.dat.LOG1
+ Contacts/                'Meus Documentos'@        NTUSER.DAT{828717a1-4245-11eb-ae17-484d7efbf964}.TMContainer00000000000000000002.regtrans-ms   ntuser.dat.LOG2
+ Cookies@                  Modelos@                 OneDrive/                                                                                      ntuser.ini
+'Dados de Aplicativos'@    Music/                   Pictures/
+ Desktop/                  NTUSER.DAT               Recent@
+
+Eryka Pereira@DESKTOP-MDT569L MINGW64 ~
+$ cd 'Eryka Pereira/.ssh/'
+bash: cd: Eryka Pereira/.ssh/: No such file or directory
+
+Eryka Pereira@DESKTOP-MDT569L MINGW64 ~
+$ cd .ssh
+
+Eryka Pereira@DESKTOP-MDT569L MINGW64 ~/.ssh
+$ ls
+id_ed25519  id_ed25519.pub
+
+Eryka Pereira@DESKTOP-MDT569L MINGW64 ~/.ssh
+$
+
+Ao achar as duas chaves usar o comando “cat” para visualizar o conteúdo das chaves:
+
+Chave pública: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINEQN/WALxq2seVytq1z2BvhMoh5cP4f2W8oKTp3YW9o silvapereira.eryka@gmail.com
+
+
+
+Comando pwd: mostra caminho completo da pasta em que estamos
+
+No meu caso: /c/Users/Eryka Pereira/.ssh
+
+
+
+Inicializar o ssh agent: (entidade responsável por salvar as chaves e lidar com elas)
+
+Digitar: eval $(ssh-agent -s)
+
+
+
+O número final varia, ele está inicializando um projeto, o agente rodando no fundo
+
+
+- Dar um “ls” para que ele liste as chaves ssh pública e privada existentes na pasta:
+
+ls
+id_ed25519  id_ed25519.pub
+
+
+-digitar: ssh-add  + chave ssh privada
+
+
+ssh-add  id_ed25519  
+
+Estamos passando o caminho para nossa chave ssh privada ao ssh Agent para que ele possa descriptografar mensagens com ela.  
+
+Ele pede a senha que você digitou ao registrar as chaves ssh
+
+
+Validando o processo:
+
+Clonando um repositório (para copiá-lo para dentro da máquina) não posso usar https então preciso usar o caminho SSH
+
+Para isso, criei um repositório privado
+
+Vai em “code” em “SSH” (NÃO PODE SER HTTPS) e copia o código do repositório:
+
+
+Código: git@github.com:erykapereira/Bootcamp.git
+
+-Vou no GIT Bash digito “git clone” + código do repositório privado e dou enter
+
+Git clone 
+
+
+git clone git@github.com:erykapereira/Bootcamp.git
+
+Finalizou a clonagem, dar um “ls” para listar o repositório clonado:
+
+ls
+Bootcamp/  id_ed25519  id_ed25519.pub  known_hosts  known_hosts.old
+
+
+Tokens
+
+- Token de acesso pessoal 
+
+- Deixar o arquivo do token na máquina
+
+
+Passo a passo para ativar o Token
+
+Colocar um nome e deixar marcado opção repo
+
+TOKEN GERADO: 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
+F694-9B37
+
+Agora vamos validar o Token clonando um repositório privado usando link https do repositório:
+
+Para isso vamos utilizar o código do repositório em https:
+
+https://github.com/erykapereira/Bootcamp.git
+
+
+Digitar “git clone + código https do repositório privado”
+
+git clone https://github.com/erykapereira/Bootcamp.git
+
+
+Vai aparecer uma janela pedindo para autenticar, usar o token ou uma git credetendial para isso:
+
+
+## Aula 07 - Iniciando o GIT e criando um commit
+
+Versionamento de código
+
+- Git init
+- Git add
+- Git commit
+
+*Todo comando do git leva a palavra GIT na frente
+
+
+Criando um repositório: início de versionamento de código
+
+Criar uma pasta chamada workspace no diretório c , e depois uma pasta chamada “livro-receitas” diretamente usando comando “mkdir + livro-receitas”
+
+Entro nela usando comando cd livro-receitas
+
+ Uso o comando git init
+
+
+
+“.git” pasta oculta do GIT onde ele versiona o código 
+
+** Para ver esta pasta ou outros arquivos ocultos, usar flags para ver pasta oculta: ls -a
+
+
+4. Usar o comando cd .git/ entrar na pasta
+
+5. E depois usar o comando ls para ver a estrutura já existente nesta pasta oculta para receber os arquivos
+
+
+
+6. Fornecer um nome para que o commit tenha um autor usando o comando: git config –global (vai passar a configuração global para todos os objetos terem nosso nome e email como autor)
+
+Para fornecer email 
+git config --global user.email silvapereira.eryka@gmail.com
+
+Para fornecer nome 
+
+git config --global user.name Eryka
+
+
+Adicionando um arquivo à pasta 
+
+- Arquivo markdown: (.md) é uma forma mais humana de escrever um arquivo html, utilizando estruturas simples para modificar a edição do arquivo de texto, permite organizar
+
+
+# Título nível 1
+## Título nível 2
+### Título nível 3
+#### Título nível 4....
+
+
+- Navegador: 
+
+- Html: é o esqueleto de toda página web
+
+
+
+Treinando no Typora ou em outro aplicativo Markdown
+
+
+
+# Palavra: negrito e grande com linha embaixo
+
+_italico_ : deixa palavra em itálico
+
+**negrito** : deixa palavra em negrito
+
+
+
+:nomedoemoticon: coloca emoji
+
+
+Espaço+ traço + espaço = cria lista de tópicos
+
+
+7. Vamos commitar o arquivo de receita
+
+git add *
+
+git commit -m "commit inicial"
+
+não deu certo
+
+
+** PARA DAR CERTO VOLTEI 1 NÍVEL NA NAVEGAÇÃO DAS PASTAS COM O COMANDO CD ..
+Aí voltei para pasta “livro-receitas” pois eu estava na pasta oculta (.git)
+
+4a61e94 => é o sha1, é o código identificador do commit realizado
+
+
+## Aula 08 – Passo a passo no ciclo de vida
+
+- GIT INIT 
+
+- Criação de repositórios dentro dos diretórios (pastas);
+
+
+- Dentro de arquivos rastreáveis no GIT existem 3 tipos de arquivos:
+
+TRACKED (arquivos rastreáveis, GIT tem ciência deles):
+
+Unmodified: arquivo que ainda não foi modificado;
+b) Modified: arquivo que não sofreu modificação (formatação etc.);
+Staged: onde ficam os arquivos que estão se preparando para fazer parte de outro agrupamento;
+
+UNTRACKED: arquivos não rastreáveis, GIT não tem ciência deles;
+
+
+- Quando criamos o arquivo, mas ainda não inserimos ele no GIT (GIT não tem ciência dele) ele é um arquivo untracked;
+
+- Quando adiciono o arquivo no GIT ele se torna tracked;
+
+- Quando abrimos esse arquivo ele automaticamente passa de unmodified para modified, o GIT sabe que ele é um modified pois o SHA1 do arquivo (código de encriptação automaticamente muda a cada alteração no arquivo);
+
+- Após executar a alteração, o arquivo passa para a condição “staged” entra na área especial aguardando para sofrer alguma outra ação, fazer parte de outro grupo;
+- Se eu removo o arquivo ele novamente se torna untracked;
+
+- Arquivo em staged está se preparando para fazer parte de um commit, envelopamento de suas informações com significância, carregando mensagem. Assim ele deixa de ser “staged” e passa a ser um commit. 
+
+- Após o commit e alteração o GIT novamente volta o arquivo para unmodified, aguardando novas modificações, é como se o GIT tirasse uma foto do código naquele momento;
+
+- Então, o arquivo sempre vai estar passando por esses ciclos de unmodified, modified e staged.
+
+DIRETÓRIO vs REPOSITÓRIO
+
+- Como GIT é um sistema distribuído as alterações na versão do código no seu repositório local não alteram a versão do código salva na nuvem do Github;
+
+- Então, os arquivos sempre vão 
+
+Repositório remoto (remote repository): versão do código existente no servidor, neste caso poderia ser representado pelo Github;
+
+Repositório local (working directory): versão do código salvo no seu dispositivo (ex.: meu PC)
+
+Área de staging (staging área): área onde o arquivo fica aguardando o commit. Os arquivos vão sempre ficar alternando entre o seu repositório de trabalho e a área de staging a medida que estamos modificando os arquivos de trabalho.
+
+Após o commit: o seu arquivo de trabalho passa integrar o seu repositório local, e os arquivos do repositório local podem ser “empurrados” ao seu repositório remoto.
+
+- Move o arquivo da área de staging e coloca eles como unmodified (cria uma “foto” do estado que os arquivos estão naqueles momentos)
+
+ - O seu repositório local só será formado por arquivos “comitados” ou seja, encriptados, pois senão estes arquivos nem mesmo conseguem ser enviados para o repositório remoto!
+
+
+
+Parte prática para exemplificar teoria
+
+- Rodamos os GIT na pasta criada anteriormente, workspace e agora iremos dar ls para verificar os arquivos lá dentro
+
+
+
+Novo comando: GIT status – auxilia a monitorar o status do arquivo – se está modified, unmodified, untracked, staged.
+
+
+“Nothing to commit, working tree clean”: nada para comitar, área de trabalho limpa.
+
+*Comando para mover arquivo: mv + nome do arquivo com extensão + diretório em que ele está (se não for na mesma pasta em que estamos)
+
+Ex: mv strogonoff.md ./receitas/
+
+- Seguindo com a parte prática, nós movemos o arquivo de receitas em extensão md. (markdown) que tínhamos criado da pasta livro-receitas para o subdiretório receitas
+
+
+Agora que nós movemos o arquivo, da pasta livro receitas e voltamos pra ela e damos git status o arquivo strogonoff que nós movemos aparece como “deletado”, o Git compreende que foi deletado, pois o Git ainda não conhece o diretório 
+
+Ele coloca a pasta receitas/ como untracked (não tem ciência);
+
+
+
+- Agora para que o Git hub tenha ciência dos arquivos, iremos movê-los à área de staged (preparação, aguardando para sofrer alguma ação) para comitá-los, seguindo a recomendação do próprio git
+
+git add strogonoff.md receitas/
+
+Para isso usamos o comando git add acima + nome do arquivo + pasta onde ele se encontra
+
+
+
+Usando git status para checar se o status do arquivo realmente mudou para staged para que possamos comitá-lo
+
+
+
+Para retirar do status de staged: “git restore –staged <file>...” to unstage
+
+Para comitar o arquivo: 
+
+git commit -m “cria pasta receitas, move arquivo para receitas”
+
+Após comitar ele mostra que não há nada para comitar novamente pois não há nenhum arquivo em status de staged preparando-se para ser envelopado.
+
+Work tree: área de trabalho
+
+
+
+Vamos agora indexar um arquivo para que ele sirva como um índice para o livro de receitas:
+
+ Primeiro criamos um arquivo com o nome README.md dentro da pasta receitas utilizando comando “ECHO >”
+
+Arquivo aparece como não rastreado
+
+
+Após criar uma capa para nosso livro de receitas editando o arquivo README.md no Typora (editor de arquivos markdown) eu mudei o status dele de untracked (não reconhecido pelo GIT) para staged para poder comitá-lo usando outro tipo de comando (git add *) que envia todos os arquivos de uma vez da pasta para staged:
+
+git add *
+
+Para comitar e add o índice usamos o comando
+
+Git commit -m “adiciona index”
+
+Dando git status para ver se foi: 
+
+
+Aula 10 – Introdução ao GitHub
+
+- Sempre configurar instalação nova do Github alinhar sempre o nickname e o e-mail com o servidor no qual estaremos usando para armazenar o código.
+
+Para redefinir nome ou e-mail do usuário
+
+git config --global --unset user.name
+
+git config --global --unset user.email
+
+
+para mudar
+
+git config --global user.nickname "erykapereira"
+
+git config --global user.nickname "silvapereira.eryka@gmail.com"
+
+
+Para ver se deu certo, navego pelo histórico do github novamente:
+
+git config –list
+
+para sair das configurações do config -list só digitar -q
+
+
+- Não há como redefinir o autor do usuário dos commits no Git, veremos como essa discrepância é mostrada
+
+README – funcionalidades
+
+Vamos apontar nosso repositório local para o repositório do GITHUB
+
+Primeiro criamos um repositório público e copiamos o URL dele para jogar no GITHUB:
+
+https://github.com/erykapereira/Bootcamp-Dio-Carrefour.git 
+
+Para apontar nosso repositório do Github no git primeiramente utilizamos o comando:
+
+
+git remote add origin https://github.com/erykapereira/Bootcamp-Dio-Carrefour.git
+
+Comando : git remote add origin + https do repositório público encontrado em:
+
+
+Para checar se realmente o repositório público foi add ao Git:
+
+git remote -v
+
+
+Ele irá listar todos os repositórios adicionados:
+
+
+	O origin é apenas um “apelido” dado ao repositório para que não tenhamos que sempre digitar o htpps do repositório para chama-lo ele.
+
+Agora daremos o comando git status para nos certificarmos de que não há pendências na área de trabalho:
+
+
+
+Não havendo seguimos, para enviar os arquivos do repositório local (do PC) para o repositório público que criamos agora no Github e acabamos de adicionar no GIT:
+
+Usamos o comando “git push origin master” para isso pois git push envia os arquivos do repositório local para o remoto no Github e origin é o apelido do nosso repositório público no Github
+
+Deu esse erro:
+
+“git push origin
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+“
+
+E mandou usar este comando no Git para adicionar o branch:
+
+git push --set-upstream origin master
+
+Usei este comando e ele devolveu:
+
+git push --set-upstream origin master
+
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (13/13), 1.50 KiB | 512.00 KiB/s, done.
+Total 13 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/erykapereira/Bootcamp-Dio-Carrefour.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+git push origin master
+Everything up-to-date
+
+
+Se dermos um F5 na página do repositório na nuvem, realmente nossa pasta de receitas e todos os arquivos dentro dela já foram enviadas ao Github (yeeeey *---*)
+
+	Esse número no topo da página:
+
+É o início do SHA1 o código de encriptação
+Clicando nele consigo ver todos os dados da encriptação incluindo o autor do código, quem comitou etc
+
+
+## Aula 10 – Resolvendo conflitos no versionamento de código
+
+- Versionamento de código de forma distribuída;
+
+- Clonar repositório do código para realizar uma contribuição (alteração);
+
+- A cada modificação do código gera uma criptografia;
+
+- Se duas pessoas fizerem alterações no mesmo arquivo ao mesmo momento, o arquivo que a pessoa enviou ao Github é mais atualizado, e o seu código sem essa alteração é mais desatualizado;
+
+- Assim ao você tentar empurrar o código desatualizado ao Github ele vai pedir para que você baixe o código novo, adicione as alterações e ai então suba o código, e aí acontece o chamado conflito de match (duas alterações na mesma linha) o Github não alterará, ele deixará que você resolva esse conflito manualmente, e empurre o código mais atualizado 
+
+
+
+
+Na prática
+
+Alterei o índice do livro de receitas adicionando mais uma receita “pavê”
+
+Quando vou no GIT e leio o status desse arquivo do índice (README.md) com a alteração usando o comando GIT STATUS, mostra que tem alterações não enviadas para commit.
+
+
+
+Agora usando git add * adicionei as novas alterações de toda a pasta de receitas para área de staging para que possa comitá-las
+
+
+
+
+Agora pedindo o status novamente
+Vemos que já está em stage (porque ele mostra como tirar do stage/unstage) preparado para sofrer o comit
+
+
+
+
+Agora dei o comando para comitar o arquivo:
+
+git commit -m "Adiciona receita pave"
+
+e agora vamos enviar as alterações para o Github utilizando o comando GIT PUSH
+
+
+
+Documento com duas edições diferentes
+
+Abri o arquivo readme.md após modificá-lo no git e com o comando git status acusou a modificação:
+
+
+
+
+Agora, com o comando “git add *” colocamos o arquivo e todos os outros na pasta livro-receitas na área de staging para comitar as mudanças:
+
+
+
+Comitamos o arquivo com as alterações usando o comando “git commit -m "Adiciona receita pave"
+
+
+
+
+Agora alteramos a receita no repositório do Github:
+
+
+Agora fiz mudanças direto no arquivo no repositório online:
+
+
+
+
+Para dar conflito de merge (duas alterações na mesma linha) quando formos enviar o arquivo do diretório local (PC) com o comando GIT push, e o Github for comparar com a versão do repositório online (diretório remoto) que acabei de alterar:
+
+
+
+
+
+
+
+
+
+Agora nós faremos o “push” enviar o arquivo com as mudanças locais (feitas no PC) para o Github
+Para isso usaremos o comando “git push origin master” (origin masteer é o apelido do repositório que já adicionamos ao GIT:
+
+
+Deu certo!
+
+Deu o problema mostrando que tem duas alterações na mesma linha de código uma que fiz no PC e outra online:
+
+
+
+
+
+
+Assim, por hora, o push foi rejeitado por conter alterações no remoto que não aparecem na versão do diretório local (PC) e vice e versa. Para resolver isso, baixo uma versão do Github unindo as duas alterações, que ele faz para que eu decida o que manter e o que remover, removo ou mantenho o que quiser e depois faço o push novamente:
+
+Exemplo de marcação que o Git mostra em arquivos modificados por mais de uma pessoa ao mesmo tempo: ele mantém as duas alterações e deixa o autor decidir o que vai manter e depois fazer o push (enviar) para o Github a nova versão:
+
+
+
+- Marcação “<<<<<< HEAD” – Alteração nossa;
+
+- “=========” – Alteração feita por outra pessoa;
+
+versão alterada do online:
+
+
+Uso o comando Git pull para unir as versões alteradas para eu conseguir remover ou aceitar as inclusões depois:
+
+“Git pull origin master”
+
+
+
+
+
+
+Agora vou baixar a versão alterada modificar e depois comitar novamente para resolver o problema
+
+A versão alterada após o GIT unir as versões já apareceu pra mim no diretório local do PC após eu dar o “git pull origin master” para unir as versões:
+
+
+
+O que está em “head” é alteração local, porém o que esta abaixo é alteração remota (online no github)
+
+Agora é só remover o que não quero e adicionar o que quero e comitar novamente solucionando problemas:
+
+Fiz as alterações e salvei:
+
+
+
+Dei git status para verificar se modificou a versão no PC:
+
+
+Foi modificada!
+
+Agora dou git add * novamente e comito
+
+
+
+Comitando com a especificação para resolver os conflitos com essa união que fiz:
+
+“git commit -m “resolve conflitos”
+
+
+
+
+
+
+Conseguiiii!!!
+
+Resolveu o conflito após enviar com o comando “git push origin master” a nova versão integrando ambas as alterações:
+
+Olhando a versão enviada ao Github:
+
+
+É o último commit!!
+
+
+Para forçar o  GIT a aceitar e empurrar a versão  local e sobrescrever a versão online alterada:
+
+https://www.jquery-az.com/2-tricks-git-pull-force-overwriting-local-files/
+
+
+git fetch --all
+
+git reset –hard origin-master
+git reset --hard origin/master
+
+
+Aceitei as edições salvei, e entrei no GIT com o comando “GIT status”
+
+
+
+
+
+

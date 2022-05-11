@@ -1,0 +1,87 @@
+# Aula 03 - Fluxogramas e variáveis
+
+## Variáveis
+
+É um objeto (posição bem localizada na memória) capaz de guardar/reter um determinado valor ou expressão e representá-lo;
+
+É um espaço na memória do computador, destinado a um dado que pode ser alterado durante a execução do algoritmo (ex. uma media pode ser atualizada ao decorrer do algoritmo)
+
+Declarar variáveis
+Ler variáveis
+
+Variáveis recebem valores (ex. após cálculo da média)
+ Eu exibo os valores (“imprimo”
+
+
+##Tipos de variáveis
+
+Numéricas: inteiros, decimais, reais,
+ Caracteres:
+Alfa-numéricas: recebe números e letras
+Lógicas: Verdadeiro ou Falso
+
+## Declaração de constantes
+
+Posso ter conteúdos invariáveis na memória do programa = constantes;
+Exemplo: pi = 3,14 (constante matemática)
+
+
+Exemplo de fluxograma
+
+Exercício de fluxograma na prática
+
+Programa: http://www.flowgorithm.org
+
+Passo 01: adicionar um bloco para declarar as variáveis que iremos utilizar no processo (incluindo a média!)
+
+Quando você inicia o programa, ele já vem com elementos de início e final, para inserir alguma etapa/bloco ao fluxograma é só clicar na setinha abaixo do bloco de início com o botão direito do mouse
+
+Abrirá uma janela onde posso achar o bloco que condiz com o que quer fazer
+
+
+Neste caso, antes de tudo preciso declarar todas as variáveis que usarei, incluindo a média
+
+Para add as variáveis clico duas vezes no bloco de declarar, e depois digito as variáveis separadas por vírgula na janela
+
+
+Nunca pode começar com número ex. “4Nota”, sempre 
+começar o nome das variáveis com letra;
+
+Nunca escrever com espaço as variáveis;
+
+Evitar acentuação;
+
+Separar mais de uma variável por vírgula;
+
+Escolher o tipo da variável: inteira, real (número decimal), lógico (verdadeiro ou falso, sim/não), caracteres (alfanuméricos)
+
+
+2º passo: inicializar (ler) todas as variáveis declaradas adicionando um bloco “Ler” para cada uma delas!Para escrever o nome das outras variáveis clico na setinha de baixo com botão direito, add outro bloco de “ler” clico duas vezes 
+
+4º passo: variável média já está definida ela é a soma e divisão das notas, mas vai apenas receber a fórmula que retornará seu valorPara atribuir este valor, clico com botão direito na última setinha antes do bloco de “fim”, e adiciono o bloco “atribuir”Para editar o nome dela e colocar a fórmula que vai dar o valor da médica, clico duas vezes no bloco “ATRIBUIR” vai abrir janela para digitar nome e a fórmula que retornará a média;
+
+5º passo: adicionar um bloco para saída/exibição dos resultados dos dados
+
+* Meu software,diferente do do profº não mostra um bloco específico com o nome “saída” para exibição do resultado da média, então usei o bloco “escrever” para retornar o resultado. Clicando duas vezes neste bloco, digito/explico ao pc qual variável quero exibir na saída/leitura dos dados: o resultado da média
+
+6º passo: vamos testar o processo dado pelo fluxograma para ver se está certo
+
+Está faltando atribuir um valor para as variáveis após executar o processo que criei no fluxograma
+
+
+Cuidados importantes ao atribuir valor: para digitar valores decimais (reais) utilizo ponto como vírgula pois software é em inglês dos USA
+
+Valores digitados e média retornada:
+
+
+Após digitar os valores colocar “aceitar” para cada um, e em “terminar” se quiser ver os valores digitados clicar em “monitorizar dados”
+
+Fluxograma final obtido: 
+
+Para testá-lo, só clicar em executar
+
+Exercício
+
+Além da média, calcular o total da soma das 4 notas
+
+Primeiro passo: criar uma atribuição para a operação de soma das 4 notas antes da atribuição da média, para depois utilizar o total da soma já para calcular a média

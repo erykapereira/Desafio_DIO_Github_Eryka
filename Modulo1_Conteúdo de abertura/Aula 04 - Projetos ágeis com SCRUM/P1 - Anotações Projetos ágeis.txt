@@ -1,0 +1,280 @@
+# PROJETOS ÁGEIS COM SCRUM
+
+## Aula 01 – Gestão de projetos ágeis
+
+- Objetivos: conceitos básicos de projetos ágeis, diferença entre gestão projetos tradicionais vs. projetos ágeis, papeis e responsabilidades de cada um do time (Scrum Master, Product Owner), desafios na gestão de projetos ágeis, cerimônias do SCRUM
+
+CONCEITOS BÁSICOS
+
+- Desafios do desenvolvimento de software:
+
+  - Cada empresa tem um obj. de negócio e os softwares vem facilitar o  alcance dos objetivos pela empresas
+
+- Dos objs. De negócios vem os requisitos necessários;
+
+- Processo de desenvolvimento: 1. Concepção, Análise e design, Testes e Implantação => nasce software que ajuda a atingir os objs. de negócio;
+
+- Qdo. Uma equipe desenvolve um software, estudos mostram que apenas 20% dele é utilizado realmente pela empresa, sendo 13% utilizado frequentemente, 16% às vezes, apenas 7% é do software é utilizado sempre. 45% do software nunca é utilizado.
+
+- Ou seja,  quando entregamos um software apenas 20% dele é utilizado pela empresa, gerando desperdício de tempo, dinheiro, capital intelectual com baixos benefícios;
+
+
+
+- Assim, o Princípio de Pareto também se aplica ao desenvolvimento de software, pois apenas 20% das funcionalidades costumam gerar 80% do benefício esperado;
+
+
+TIPOS DE PROJETO
+
+- Tradicional ou Waterfall: só permite que o projeto avance quando uma fase está inteiramente completa!
+
+- É preditivo , o seja o cliente que solicitou prediz o escopo do software e determina seus requisitos, seu design na fase de planejamento inicial do projeto, o que traz mais burocracia ao seu desenvolvimento, há prazos pré-estabelecidos e mais rígidos;
+
+- Pode levar muitos meses este modelo de projetos, a fase de design costuma ser muito complexa pois levam muito tempo para sua decisão, na parte burocrática.
+
+
+- O cliente só vê o software funcionando no final do projeto!
+
+- Não há feedback durante o desenvolvimento, então se o software realmente não se adaptar às necessidades reais dos usuários após estar pronto, só haverá mais impacto de custo e tempo para modificação posterior;
+
+- Resistência a mudanças, pois já existe um prazo a ser cumprido, e se mudanças existirem, podem ter impacto no tempo, no custo, na qualidade;
+
+- Equipe de desenvolvimento mais na defensiva quanto ao custo e mudanças;
+
+
+
+
+- Projetos ágeis: o software é construído por partes (incremental) e cada parte executa-se em um ciclo que é interativo!
+
+- Adaptativo: evolui de acordo com as entregas do projeto e feedback dos usuários;
+
+- Controlado por funcionalidades entregues e não por processo.
+
+- Ou seja, acabou de construir uma parte vai para outra parte...
+
+- Mudanças constantes de acordo com feedbacks dos usuários, o que permite melhorar a qualidade ainda no período de desenvolvimento e entregar um software mais eficiente e adaptados às reais necessidades de seus usuários;
+
+
+
+Comparativo entre projetos tradicionais vs. Ágeis
+
+
+
+OU SEJA...
+
+- Em projetos tradicionais (Waterfall) você corre o risco de descobrir que estava errado apenas depois de meses...
+
+- Com os projetos ágeis (SCRUM) você consegue ver o software funcionando mais rapidamente ainda na sua fase de construção,e descobre se ele está ineficiente ou sua proposta estava errada em no máximo 30 dias e consegue corrigir ou mudar algumas coisas e homologar mais rapidamente.
+
+O QUE É SER ÁGIL?
+
+- Ser ágil é ter rapidez na mudança e desembaraço nas decisões referentes ao software, ele se torna mais adaptável;
+
+- Priorizar algumas coisas para tornar as coisas mais complexas mais simples: fatio a entrega do software para tornar o processo mais simples;
+
+- Equipe mais comprometida com os objetivos, porque a equipe vê o software funcionando mais rápido, é mais fácil concordar o discordas nas decisões entre equipe de TI e cliente!
+
+- É entregar para ter maior valor para o cliente: meu foco é o cliente e não o projeto!
+
+- É ter capacidade de responder rapidamente às mudanças!
+
+SCRUM
+
+- É um dos frameworks (um conjunto de códigos prontos que podem ser usados no desenvolvimento de aplicativos e sites) mais usados de gerenciamento de projetos ágeis, mas NÃO É O ÚNICO: temos o LINN, o XP, o CANBAN;
+
+- É baseado no conceito do jogo de rugby: todos comprometidos e abraçados por uma CAUSA EM COMUM!;
+
+- Projetos formados por equipes de desenvolvimento pequenas e multidisciplinares o que mostra o contrassenso de algo que é rápido, pois o SCRUM é ágil, ele não trabalha com muita gente para entregar mais rápido, e sim com equipes pequenas e multidisciplinares para galgar os melhores resultados e eficiência na solução do problema a que se propõe;
+
+PILARES DO SCRUM
+
+- Transparência: 
+
+    - Conversar mais e escrever menos – preza toda equipe unida e comprometida, sentados próximos fisicamente, mais comunicação em equipe;
+
+- Demonstrar o software constantemente aos usuários e obter feedbacks importantes: usuário ver app funcionando rapidamente e damos soluções a essas necessidades;
+
+- Adaptação:
+
+- Requisitos mudam ao longo do tempo: adaptar o software rapidamente a fim de agregar valor ao cliente e atender o que ele precisa;
+
+- Inspeção: 
+
+- Aprender progressivamente com o uso do software: com o decorrer do tempo iremos aprender as coisas mais relevantes no uso do software para atender melhor o objetivo dos clientes e usuários.
+
+
+
+RAZÕES PARA ADOTAR O SCRUM:
+
+- Desenvolvido e entregue em partes menores (2 a 4 semanas) com constante feedback dos usuários;
+
+- Melhor gerenciamento de riscos (redução de incertezas pela curta duração de backlog);
+
+- Comprometimento, motivação e transparência da equipe (Daily Meeting);
+
+- Maior valor para o negócio (priorização do backlog);
+
+- Usuários envolvidos durante todo o ciclo no desenvolvimento do software;
+
+- Aplicação das lições aprendidas: melhoria contínua com reunião de retrospectiva para dar feedback e melhorar nos próximos ciclos/projetos;
+
+
+
+Características do time SCRUM:
+
+- Equipes capazes de se auto-organizarem;
+
+- As tarefas são do time e todos são responsáveis: se uma pessoa da equipe atrasar, tem impacto no trabalho de todas as outras, se um fracassa, todos fracassam; 
+
+– Forte comprometimento com resultados: visto que a equipe tem que ser unida e as decisões e atitudes de um em relação ao projeto impactam os demais e consequentemente o resto do time.
+
+Porque as startups utilizam framework ágil? 
+
+- Porque Startups costumam trabalhar segundo conceito do Minimum Viable Product (MVP) – Mínimo Produto ágil – que significa o mínimo produto que posso entregar do software aos usuários para eles testarem para depois corrigir os possíveis erros e entregar o material acabado e melhorado!
+
+- É como uma carreta, eu não entregaria ela completa mas apenas a parte da carroceria que suporta os eixos, e depois de ver se funciona entrego ela completa!
+
+
+EXERCÍCIO
+
+
+R: b) escopo definido ao longo do projeto ! – Interativo e dinâmico
+
+
+R: B) Adaptação, transparência e inspeção
+
+
+## Aula 02 – Papeis e responsabilidades do time SCRUM
+
+Atores do time SCRUM
+
+- Product owner (PO):  
+
+- É o indivíduo representante da área de negócios;
+
+- Não é um comitê!
+
+- Define as funcionalidades do software (Product backlog) e prioriza o backlog;
+
+- Prioriza as funcionalidades de acordo com o valor de negócio;
+
+- Garante que o time de desenvolvimento entenda os itens do backlog no nível necessário;
+
+
+- Scrum master (SM):
+
+- Garante o uso correto do SCRUM – treina e garante a cerimônia correta do SCRUM e que o time fique bem, sua tarefa também é fazer com que o time fique independente e autogerenciável;
+
+- Não é o gerente de projetos ! Não é ele quem delega tarefa ao time!
+
+- Age como facilitador, permitindo que o PO explique aos DEV’s o objetivo do projeto;
+
+- Auxilia o product owner no planejamento e estimativas do backlog;
+
+- Treina o time em autogerenciamento e interdisciplinaridade.
+
+- Time de desenvolvimento (DEVs):
+
+- Possui habilidades suficientes para desenvolver, testar, criar e desenhar, ou seja, tudo que for necessário para entregar o software funcionando;
+
+- As tarefas no time podem ser divididas, podem haver especialistas – back end, front end, testes (Q.A.), não é necessário haver várias pessoas sabendo fazer tudo, posso ter equipes com habilidades específicas e ir treinando para que todos desenvolvam as demais habilidades;
+
+
+## Aula 03 – Cerimônias no SCRUM
+
+TIME BOX
+
+- Tempo máximo para fazer uma cerimônia ou sprint. 
+
+Sprint trata-se de um conjunto de tarefas que devem ser executadas e desenvolvidas em um período pré-definido de tempo. No Scrum, por exemplo, o Sprint tem seu tempo mínimo de 1 semana até seu tempo máximo de 4 semanas (time-box).
+
+- Serve para doutrinar os DEV’s à realizarem as tarefas dentro do tempo máximo para cerimônia.
+
+SPRINT
+
+- Significa corrida, arrancada;
+
+- É o evento principal do SCRUM;
+
+- Tem duração de no máximo 30 dias corridos (ou menos);
+
+- Quem vai definir o tempo da SPRINT é o próprio time de SCRUM – o PO, o MS, e os DEV’s;
+
+Composição de uma Sprint
+
+- PLANEJAMENTO DA SPRINT
+
+Quem participa do planejamento?
+
+- PO, time de desenvolvimento, SM;
+
+- Time box de Sprint de 30 dias: reunião de 8h
+
+- Objetivos 1ªs 4h:  PO explica ao time de SCRUM as funcionalidades que ele quer no APP na Sprint, porque, como deseja que seja feito, time de DEV’s tirará dúvidas sobre o que PO quer;
+- Outras 4h: time de DEV’s planeja como fazer para entregar o que o PO deseja, quebrando as atividades;
+
+Técnicas do planejamento:
+
+- Mais utilizada: planning poker – utiliza técnica de baralho cada um do time, estima o esforço e tempo para cada tarefa;
+
+- Após planejamento time de DEV’s estima se dará para entregar tudo que PO deseja;
+
+- SPRINT  só pode levar até 30 dias;
+
+- REUNIÕES DIÁRIAS (DAILY MEETING);
+
+- Time de DEVs + PO + SM
+
+- Responde 3 perguntas: o que fez no dia anterior, o que está programado para fazer no dia, se tem algum impedimento; 
+
+- Reunião feita em pé (stand up meeting): no mesmo horário e local, precisa ser de pé porque sentado fica-se acomodado e fala um monte de coisa (as reuniões levam muito tempo porque a pessoa fica acomodada na cadeira, confortável e começa a debater temas sem relevância);
+
+- Dura no máximo 15 minutos, só discute o realmente essencial
+
+Quadro Kanban
+
+ 
+
+- Time realiza inspeção se tudo está ocorrendo dentro do esperado;
+
+
+- REVISÃO DA SPRINT (REVIEW);
+
+- Time de desenvolvimento (DEV’s) apresenta ao Product owner (PO) o trabalho realizado;
+
+- Time box: duração de 4 h (em Sprint de 30 dias);
+
+- PO pode levar seus stakeholders;
+
+- PO pode aceitar ou não o que é apresentado pelos DEV’s, se ele aceitar, o app será desenvolvido;
+
+- O PO não pode dar retorno sobre o que achou nesse dia.
+
+
+ RETROSPECTIVA DA SPRINT
+
+- É uma reunião da equipe para lições aprendidas pela equipe;
+
+- O PO e o MS precisam ser transparentes com a equipe de desenvolvimento sobre seus erros e as lições aprendidas a partir deles (no planejamento da Sprint, coisas que não foram perguntadas ao PO) para que tudo fique claro e a equipe compreenda o que pode ser melhorada e que não aconteça na próxima Sprint;
+
+- Se alguém na equipe não estiver comprometido, o objetivo da Sprint não é atingido.
+
+- Time box: 3h (Sprint de 30 dias) – pode ser reduzido ou aumentado em função do tempo da Sprint.
+
+
+## Aula 04 – Gestão de projetos tradicionais vs ágeis
+
+Estudo de caso
+
+- Nubank: startup que se tornou unicórnio – atingindo;
+
+- Se a Nubank fosse planejar tudo que ela ofereceria ela iria implementar muita coisa que pode ser que não existiria hoje;
+
+- Já na gestão de produtos ágeis ela vai colocando o mínimo projeto viável e vai melhorando a sua qualidade – lançou cartão de crédito, agradando os clientes e evoluindo outras funcionalidades;
+
+- Gestão de produtos ágeis responde mais rapidamente pro negócio, dá maior valor ao cliente;
+
+- Se fosse na gestão de projetos tradicional, por ser mais engessado talvez o projeto tivesse mais embargo, mais demora, tudo fosse mais travado e burocrático, com possível impacto de custo e talvez não faria o sucesso que faz.
+
+
+
+

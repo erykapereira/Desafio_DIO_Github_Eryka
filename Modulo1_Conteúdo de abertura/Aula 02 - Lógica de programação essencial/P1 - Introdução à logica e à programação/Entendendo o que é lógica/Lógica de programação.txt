@@ -1,0 +1,30 @@
+# Lógica de programação 
+
+Programar é resolver problemas!
+
+Precisamos entender quais as habilidades necessárias que precisamos desenvolver para criar um código, começar programar;
+
+Lógica = coerência de raciocínio, ideias;
+
+Preciso realizar as tarefas sempre baseando me numa sequência lógica !!!!
+Lógica de programação = contextualizar a lógica na programação de computadores, buscando a melhor sequência de ações para solucionar um problema;
+Sequência de ações para resolver problema = algoritmo (na informática)
+
+## Metacognição 
+
+Significa "pensar como você pensa";
+
+## Abstração
+
+Será que consigo obter o desconto de forma mais simples ?
+Sabe que se o desconto é 20% você pagará apenas 80% = 0,80 * 100 = você pagará 80,00
+Assim com esse exemplo vimos que no primeiro exemplo, o caminho mental para solucionar o problema é mais longo, na segunda forma é mais rápido, utilizando abstração, dividindo o todo em partes;
+Assim, a abstração é uma habilidade de um bom programador, eu resolver de forma mais rápida , dividindo o todo em partes, resolvendo e depois unindo para formar o código do software;
+
+## Exercicio 
+
+Fazer média aritmética das notas utilizando um mapa mental.
+
+Fazer uma abstração, tentando simplificar o mapa mental da solução do exercício anterior
+
+
