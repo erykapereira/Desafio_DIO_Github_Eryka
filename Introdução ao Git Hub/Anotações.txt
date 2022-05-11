@@ -1,8 +1,0 @@
-Requisitos do projeto
-
-- Noções básicas de Git/Github
-
-- Sugestão de curso da DIO - Introdução ao Git e Github
-
-- Git devidamente instalado (usaremos Gitbash)
-Engajamento e vontade de aprender
