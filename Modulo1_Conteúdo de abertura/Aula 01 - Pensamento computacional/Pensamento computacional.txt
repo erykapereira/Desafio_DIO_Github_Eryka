@@ -1,0 +1,93 @@
+# Anotações aula 04 - Estudos de caso sobre pensamento computacional
+
+## Estudo de caso 01
+
+Não é necessário usar TODOS os 4 pilares (Decomposição, Reconhecimento de padrões, Abstração, Algoritmos) juntos para solucionar um problema! Posso usar só 2, 3 etc;
+
+Na hora de estabelecer prioridades para solucionar o problema, fazer um levantamento de qual deles aparece mais vezes - esse será sua prioridade dentre os demais, a repetição de um mesmo elemento caracteriza um padrão;
+
+Ex: detalhe mais importante na sobrevivência foi fazer fogo pois seria utilizado para resolver mais problemas;
+
+Todo mapa é uma abstração, representação das características do ambiente, ele é criado por abstração pois não preciso ter todos os detalhes do local para colocar no mapa, apenas os principais para você.
+
+
+Estudo de caso 02
+
+## Problema 01
+
+Soma de  nº’s  entre 1 e 200
+
+Solução 01: somar um a um - gasto de muito tempo. Inviável!
+
+Solução 02:
+
+Pegar cada extremo - número inicial da sequência e ir somando, e pegar número final e ir diminuindo valores
+200 +1 = 201
+199 + 2 = 201
+199 + 3 = 201
+198 + 4 = 201
+
+Usei regra de decomposição (um dos 4 pilares do pensamento computacional) e ainda realizei o reconhecimento de padrões (outro pilar) pois o resultado dessa soma sempre dá 201.
+
+## Problema 03
+
+Adivinhar um número de escolha entre um intervalo hipotético de números
+
+Para isso, você só pode perguntar questões com resposta “Sim” ou “Não”
+Ex: O número é 1?
+      O número é 2?
+     O  número é 3?
+              
+Isso levaria muito tempo! - busca ineficiente e com desperdício do recurso TEMPO
+
+Como poderia fazer isso de forma mais eficiente então para determinar um intervalo menor de busca, utilizando os parâmetros dados?
+
+Buscar um limite inferior e superior de busca fazendo perguntas deste modo:
+
+R: O número é maior que 50?
+
+    O número é menor que 20?
+
+## Problema 04 
+
+Busca binária
+
+Mais eficiente que busca de varredura (desperdício de tempo)
+
+Busca dados dentro de vetores
+
+Ex: A <-  {3,5,9,20,27,45,55}
+
+Vetor A
+
+1º passo => ordenar vetor em ordem crescente numérica;
+
+2º passo => tirar o módulo do número usando fórmula “L/2” pois assim procuro os números inteiros, se for ímpar eu seleciono a metade menor;
+
+3º passo => Acessar a estrutura do vetor através da posição do número que você determinou no intervalo no exemplo anterior, determinou parcelas menores (limite inferior e superior) para a busca do número;
+
+4º passo => Comparar os valores do vetor
+
+5º passo => Repetir o processo até encontrar o número que busca no intervalo
+
+6º passo => Imprimir “busca bem sucedida”.
+
+
+## Referências para estudar mais:
+
+https://www.cs.cmu.edu/~CompThink/resources/TheLinkWing.pdf
+
+Computacional Thinking the Link Wing:
+https://ubiquity.acm.org/article.cfm?id=1922682
+
+Jeannette Wing: Computational Thinking:
+https://www.youtube.com/watch?v=YVEUOHw3Qb8
+
+ 
+Lecture 1: Algorithmic Thinking, Peak Finding: https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUI4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+
+Fundamentos da programação de computadores - Ana Ascencio e Edilene de Campos - Pearson
+
+Fórum do curso
+
+Comunidade online (Discord)
