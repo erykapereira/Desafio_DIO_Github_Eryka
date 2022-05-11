@@ -3,4 +3,4 @@ Repositório criado para compartilhar desenvolvimento de projeto no fim do 1º m
 
 ## Links úteis
 
-Sintaxe básica [(https://www.markdownguide.org/)]
+[Sintaxe básica](https://www.markdownguide.org/)
