@@ -218,7 +218,6 @@ Testando os comandos aprendidos
 7º comando: deletar um arquivo, dar cd.. para voltar pro diretório onde a pasta a ser deletada estar, depois digitar “del + nome do arquivo” ele perguntará se tem certeza, é só digitar sim. Esse comando não funciona para deletar repositórios!
 
 
-
 Atalho: 
 
 - Setinha para cima (uma das setas direcionais – arrow Keys) só ir apertando ela no terminal para navegar entre os comandos já utilizados e repetir um deles, neste caso usamos o comando de criar arquivos novamente para criar um arquivo na pasta workspace para depois aprender a deletar a pasta como um todo.
@@ -329,60 +328,16 @@ Settings > SSG and GPG Keys
 
 New SSH KEY
 
-
-
-
-
-
-
-
 Abrir Git bash => gerar chave SSH de forma 
-
-
-
-
 
 Digitar essa linha de código: 
 
-ssh-keygen -t ed25519 -C silvapereira.eryka@gmail.com
+ssh-keygen -t ed25519 -C email
 
 
 Se der certo e gerar a chave aparecerá
 
-
-
-
-
-
-
 Diretório: Created directory '/c/Users/Eryka Pereira/.ssh'.
-
-Chave criada: (/c/Users/Eryka Pereira/.ssh/id_ed25519)
-
-Chave pública: /c/Users/Eryka Pereira/.ssh/id_ed25519.pub
-
-Keyfingerprint:SHA256:UdozWb7c/LiwtskEm+oppmf3XmwIEyt99K4swmoITtc silvapereira.eryka@gmail.com
-
-Senha para aprovar chave: 671903Lina
-
-
-Imagem da senha: 
-
-+--[ED25519 256]--+
-|          . .    |
-|         + +     |
-|        + * .    |
-|       . = = +   |
-|    . . S o + o  |
-|.. . E . + B   o |
-|o... .    + B . .|
-| .. . B o+ *.+ . |
-|   .o* =++=.=..  |
-+----[SHA256]-----+
-
-
-
-
 
 Ctrl + L = limpar terminal do Git bash
 
@@ -394,13 +349,11 @@ Ele mandou navegar usando o comando cd (para navegar até a pasta) + caminho da 
 
 cd /c/Users//Eryka Pereira/.ssh
 
-
 Então fiz outro caminho:
 
 Cheguei até a pasta users usando comando cd:
 
 cd /c/Users/
-
 
 Listei o que tinha em Users para achar o caminho para minha pasta Eryka Pereira:
 
@@ -417,137 +370,30 @@ cd .ssh
 Obtive acesso às duas chaves mandando listar: 
 
 ls
-id_ed25519  id_ed25519.pub
+id_nomedachave id_nomedachave
 
 Por fim usei o comando cat para visualizar a chave pública que usamos no github como ele ensinou:
 
-
-cat id_ed25519.pub
+cat id_nomedachave.pub
 
 Obtive a chave pública: 
 
-
-cat id_ed25519.pub
-
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINEQN/WALxq2seVytq1z2BvhMoh5cP4f2W8oKTp3YW9o silvapereira.eryka@gmail.com
-
+cat id_nomedachave.pub
 
 Vou no Github e salvo um título que identifique a chave do pc dell e colo a  chave no espaço de descrição embaixo do título
-
-
 
 Salvo clicando em “add SSH key”
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Passp a passo que utilizei
-
-
-
-
-
-
-
-
-
-Eryka Pereira@DESKTOP-MDT569L MINGW64 /c/Users
-$ ls
-'All Users'@   Default/  'Default User'@  'Eryka Pereira'/   Public/  'Todos os Usuários'@  'Usuário Padrão'@   desktop.ini
-
-Eryka Pereira@DESKTOP-MDT569L MINGW64 /c/Users
-$ cd 'Eryka Pereira/'
-
-Eryka Pereira@DESKTOP-MDT569L MINGW64 ~
-$ ls
-'3D Objects'/              Documents/               NTUSER.DAT{828717a0-4245-11eb-ae17-484d7efbf964}.TxR.0.regtrans-ms                            'Saved Games'/
-'Ambiente de Impressão'@   Downloads/               NTUSER.DAT{828717a0-4245-11eb-ae17-484d7efbf964}.TxR.1.regtrans-ms                             Searches/
-'Ambiente de Rede'@        Favorites/               NTUSER.DAT{828717a0-4245-11eb-ae17-484d7efbf964}.TxR.2.regtrans-ms                             SendTo@
- AppData/                  IntelGraphicsProfiles/   NTUSER.DAT{828717a0-4245-11eb-ae17-484d7efbf964}.TxR.blf                                       Tracing/
-'Biblioteca do calibre'/   Links/                   NTUSER.DAT{828717a1-4245-11eb-ae17-484d7efbf964}.TM.blf                                        Videos/
-'Configurações Locais'@   'Menu Iniciar'@           NTUSER.DAT{828717a1-4245-11eb-ae17-484d7efbf964}.TMContainer00000000000000000001.regtrans-ms   ntuser.dat.LOG1
- Contacts/                'Meus Documentos'@        NTUSER.DAT{828717a1-4245-11eb-ae17-484d7efbf964}.TMContainer00000000000000000002.regtrans-ms   ntuser.dat.LOG2
- Cookies@                  Modelos@                 OneDrive/                                                                                      ntuser.ini
-'Dados de Aplicativos'@    Music/                   Pictures/
- Desktop/                  NTUSER.DAT               Recent@
-
-Eryka Pereira@DESKTOP-MDT569L MINGW64 ~
-$ cd 'Eryka Pereira/.ssh/'
-bash: cd: Eryka Pereira/.ssh/: No such file or directory
-
-Eryka Pereira@DESKTOP-MDT569L MINGW64 ~
-$ cd .ssh
-
-Eryka Pereira@DESKTOP-MDT569L MINGW64 ~/.ssh
-$ ls
-id_ed25519  id_ed25519.pub
-
-Eryka Pereira@DESKTOP-MDT569L MINGW64 ~/.ssh
-$
-
 Ao achar as duas chaves usar o comando “cat” para visualizar o conteúdo das chaves:
-
-Chave pública: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINEQN/WALxq2seVytq1z2BvhMoh5cP4f2W8oKTp3YW9o silvapereira.eryka@gmail.com
-
-
 
 Comando pwd: mostra caminho completo da pasta em que estamos
 
 No meu caso: /c/Users/Eryka Pereira/.ssh
 
-
-
 Inicializar o ssh agent: (entidade responsável por salvar as chaves e lidar com elas)
 
 Digitar: eval $(ssh-agent -s)
-
-
 
 O número final varia, ele está inicializando um projeto, o agente rodando no fundo
 
@@ -555,13 +401,9 @@ O número final varia, ele está inicializando um projeto, o agente rodando no f
 - Dar um “ls” para que ele liste as chaves ssh pública e privada existentes na pasta:
 
 ls
-id_ed25519  id_ed25519.pub
+id_nomedachave  id_nomedachave.pub
 
-
--digitar: ssh-add  + chave ssh privada
-
-
-ssh-add  id_ed25519  
+-digitar: ssh-add  + chave ssh privada 
 
 Estamos passando o caminho para nossa chave ssh privada ao ssh Agent para que ele possa descriptografar mensagens com ela.  
 
@@ -589,7 +431,7 @@ git clone git@github.com:erykapereira/Bootcamp.git
 Finalizou a clonagem, dar um “ls” para listar o repositório clonado:
 
 ls
-Bootcamp/  id_ed25519  id_ed25519.pub  known_hosts  known_hosts.old
+Bootcamp/  id_nomedachave  id_nomedachave.pub  known_hosts  known_hosts.old
 
 
 Tokens
@@ -601,10 +443,7 @@ Tokens
 
 Passo a passo para ativar o Token
 
-Colocar um nome e deixar marcado opção repo
-
-TOKEN GERADO: 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
-F694-9B37
+Colocar um nome e deixar marcado opção repor
 
 Agora vamos validar o Token clonando um repositório privado usando link https do repositório:
 
@@ -639,8 +478,6 @@ Criar uma pasta chamada workspace no diretório c , e depois uma pasta chamada �
 Entro nela usando comando cd livro-receitas
 
  Uso o comando git init
-
-
 
 “.git” pasta oculta do GIT onde ele versiona o código 
 
@@ -978,36 +815,15 @@ e agora vamos enviar as alterações para o Github utilizando o comando GIT PUSH
 Documento com duas edições diferentes
 
 Abri o arquivo readme.md após modificá-lo no git e com o comando git status acusou a modificação:
-
-
-
-
 Agora, com o comando “git add *” colocamos o arquivo e todos os outros na pasta livro-receitas na área de staging para comitar as mudanças:
-
-
 
 Comitamos o arquivo com as alterações usando o comando “git commit -m "Adiciona receita pave"
 
-
-
-
 Agora alteramos a receita no repositório do Github:
-
 
 Agora fiz mudanças direto no arquivo no repositório online:
 
-
-
-
 Para dar conflito de merge (duas alterações na mesma linha) quando formos enviar o arquivo do diretório local (PC) com o comando GIT push, e o Github for comparar com a versão do repositório online (diretório remoto) que acabei de alterar:
-
-
-
-
-
-
-
-
 
 Agora nós faremos o “push” enviar o arquivo com as mudanças locais (feitas no PC) para o Github
 Para isso usaremos o comando “git push origin master” (origin masteer é o apelido do repositório que já adicionamos ao GIT:
@@ -1017,16 +833,9 @@ Deu certo!
 
 Deu o problema mostrando que tem duas alterações na mesma linha de código uma que fiz no PC e outra online:
 
-
-
-
-
-
 Assim, por hora, o push foi rejeitado por conter alterações no remoto que não aparecem na versão do diretório local (PC) e vice e versa. Para resolver isso, baixo uma versão do Github unindo as duas alterações, que ele faz para que eu decida o que manter e o que remover, removo ou mantenho o que quiser e depois faço o push novamente:
 
 Exemplo de marcação que o Git mostra em arquivos modificados por mais de uma pessoa ao mesmo tempo: ele mantém as duas alterações e deixa o autor decidir o que vai manter e depois fazer o push (enviar) para o Github a nova versão:
-
-
 
 - Marcação “<<<<<< HEAD” – Alteração nossa;
 
@@ -1040,23 +849,15 @@ Uso o comando Git pull para unir as versões alteradas para eu conseguir remover
 “Git pull origin master”
 
 
-
-
-
-
 Agora vou baixar a versão alterada modificar e depois comitar novamente para resolver o problema
 
 A versão alterada após o GIT unir as versões já apareceu pra mim no diretório local do PC após eu dar o “git pull origin master” para unir as versões:
-
-
 
 O que está em “head” é alteração local, porém o que esta abaixo é alteração remota (online no github)
 
 Agora é só remover o que não quero e adicionar o que quero e comitar novamente solucionando problemas:
 
 Fiz as alterações e salvei:
-
-
 
 Dei git status para verificar se modificou a versão no PC:
 
@@ -1066,15 +867,9 @@ Foi modificada!
 Agora dou git add * novamente e comito
 
 
-
 Comitando com a especificação para resolver os conflitos com essa união que fiz:
 
 “git commit -m “resolve conflitos”
-
-
-
-
-
 
 Conseguiiii!!!
 
@@ -1084,7 +879,6 @@ Olhando a versão enviada ao Github:
 
 
 É o último commit!!
-
 
 Para forçar o  GIT a aceitar e empurrar a versão  local e sobrescrever a versão online alterada:
 
